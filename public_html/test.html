@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/d3/d3.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <script>
+            datas = [{"name": "Hi", "age": 25},
+                {"name": "Hi", "age": 10},
+                {"name": "Hi", "age": 28},
+                {"name": "Hi", "age": 10},
+                {"name": "Hi", "age": 25},
+                {"name": "Hi", "age": 28},
+                {"name": "Hi", "age": 27},
+                {"name": "Hi", "age": 28},
+                {"name": "Hi", "age": 29},
+                {"name": "Hi", "age": 30},
+                {"name": "Hi", "age": 30},
+                {"name": "Hi", "age": 12},
+                {"name": "Hi", "age": 9},
+                {"name": "Hi", "age": 8},
+                {"name": "Hi", "age": 15},
+                {"name": "Hi", "age": 30},
+                {"name": "Hi", "age": 12},
+                {"name": "Hi", "age": 10},
+                {"name": "Hi", "age": 9},
+                {"name": "Hi", "age": 8},
+                {"name": "Hi", "age": 17},
+                {"name": "Hi", "age": 31},
+                {"name": "Hi", "age": 19}
+            ];
+
+            data = [{"a"},{"a"},{"b"},{"b"},{"c"}];
+
+            var map = data.map(function (i) {
+                return i;
+            })
+
+            var histogram = d3.layout.histogram()
+                    .bins(3)(map)
+
+            var width = 800;
+            height = 500;
+
+            var canvas = d3.select("body").append("svg")
+                    .attr("width", width)
+                    .attr("heihgt", height)
+            //.append("g").attr("transform", "translate(50, 50)")
+            var bars = canvas.selectAll(".bar")
+                    .data(histogram)
+                    .enter()
+                    .append("g")
+
+            bars.append("rect")
+                    .attr("x", function (d) {
+                        return d.x * 20;
+                    })
+                    .attr("y", 0)
+                    .attr("width", function (d) {
+                        return d.dx * 20 - 10
+                    })
+                    .attr("height", function (d) {
+                        return d.y * 20;
+                    })
+                    .attr("fill", "steelblue")
+
+
+
+        </script>
+    </body>
+
+</html>

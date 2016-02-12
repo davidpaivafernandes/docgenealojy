@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>DocGenology</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="js/libs/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="js/navbar.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <!-- D3 -->
+        <script src="js/libs/d3/d3.min.js" type="text/javascript"></script>
+        <!-- DATA -->
+        <script src="data/graph.js" type="text/javascript"></script>
+        <script src="data/visited.js" type="text/javascript"></script>
+        <!-- utils -->
+        <script src="js/util.js" type="text/javascript"></script>
+        <!-- NETWORK STYLE -->
+        <style>
+            .link {
+                fill: none;
+                stroke: #666;
+                stroke-width: 1.5px;
+            }
+
+            .selectedStudents {
+                fill: none;
+                stroke: #f66;
+                stroke-width: 3px;
+            }
+
+            #licensing {
+                fill: green;
+            }
+
+            .link.licensing {
+                stroke: green;
+            }
+
+            .link.resolved {
+                stroke-dasharray: 0,2 1;
+            }
+
+            circle {
+                fill: #ccc;
+                stroke: #333;
+                stroke-width: 1.5px;
+            }
+
+            text {
+                font: 10px sans-serif;
+                pointer-events: none;
+                text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+            }
+
+            /* sdfsdf */
+
+            .scaling-svg-container {
+                position: relative; 
+                height: 0; 
+                width: 100%; 
+                padding: 0;
+                padding-bottom: 100%; 
+                /* override this inline for aspect ratio other than square */
+            }
+            .scaling-svg {
+                position: absolute; 
+                height: 100%; 
+                width: 100%; 
+                /*left: 0; 
+                top: 0;*/
+            }
+
+            svg {
+                overflow: visible
+            }
+
+            #graphsvg {
+                background-color: #dff
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="container">
+
+            <!-- Static navbar -->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a  id="start" class="action navbar-brand" href="#">DocGenology</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a  id="network" class="action" href="#">Network</a></li>
+                            <li><a id="almamater" class="action" href="#">Alma mater</a></li>
+                            <li><a id="fields" class="action" href="#">Fields</a></li>
+                            <li><a id="institutions" class="action" href="#">Institutions</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Project<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a id="data" href="#data" class="action">Data gathering</a></li>
+                                    <li><a id="tools" href="#tools" class="action">Tools used</a></li>
+                                    <!--
+                                        <li role="separator" class="divider"></li>
+                                        <li class="dropdown-header">Nav header</li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    -->
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div><!--/.nav-collapse -->
+                </div><!--/.container-fluid -->
+            </nav>
+
+            <!-- Main component for a primary marketing message or call to action -->
+            <div class="start panels" style="">
+                <h1>About</h1>
+                <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+            </div>
+
+            <!-- GRAPH PANEL -->
+            <div class="network panels" style="">
+                <h1>Network</h1>
+                <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+                <div class="scaling-svg-container">
+                    <div id="graphcanvas">
+                    </div>
+                </div>
+            </div>
+
+            <div class="data panels">
+                <h1>Data</h1>
+                <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+            </div>
+
+            <!-- TOOLS PANEL -->
+            <div class="tools panels">
+                <h1>Tools</h1>
+                <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+                <ul>
+                    <li>Data gathering
+                        <ul>
+                            <li>Java</li>
+                            <li>xpath</li>
+                        </ul>
+                    </li>
+                    <li>Visualization
+                        <ul>
+                            <li><a href="https://d3js.org/">d3 Data-Driven Document</a></li>
+                            <li>d4</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- alma mater -->
+            <div class="almamater panels">
+                <h1>Alma mater</h1>
+                <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+                <div id="almamatercanvas"></div>
+            </div>
+
+            <!-- fields -->
+            <div class="fields panels">
+                <h1>Áreas</h1>
+                <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+                <div id="fieldscanvas"></div>
+            </div>
+
+            <!-- institutions -->
+            <div class="institutions panels">
+                <h1>Institutions</h1>
+                <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+                <div id="institutionscanvas"></div>
+            </div> 
+
+            <div id="dialog_scientist" style="display: inline-block"></div>
+
+            <!-- Bootstrap core JavaScript
+            ================================================== -->
+            <!-- Placed at the end of the document so the pages load faster -->
+            <script src="js/libs/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+            <script>
+
+                var w = window.innerWidth;
+                var h = window.innerHeight;
+
+                var keyc = true, keys = true, keyt = true, keyr = true, keyx = true, keyd = true, keyl = true, keym = true, keyh = true, key1 = true, key2 = true, key3 = true, key0 = true
+
+                var focus_node = null, highlight_node = null;
+
+                var text_center = false;
+                var outline = false;
+
+                var min_score = 0;
+                var max_score = 1;
+
+                var highlight_color = "blue";
+                var highlight_trans = 0.1;
+
+                var size = d3.scale.pow().exponent(1)
+                        .domain([1, 100])
+                        .range([8, 24]);
+
+
+                var default_node_color = "#ccc";
+                //var default_node_color = "rgb(3,190,100)";
+                var default_link_color = "#888";
+                var nominal_base_node_size = 8;
+                var nominal_text_size = 10;
+                var max_text_size = 24;
+                var nominal_stroke = 1.5;
+                var max_stroke = 4.5;
+                var max_base_node_size = 36;
+                var min_zoom = 0.1;
+                var max_zoom = 7;
+
+
+
+                function resize() {
+                    var width = window.innerWidth, height = window.innerHeight;
+                    svg.attr("width", width).attr("height", height);
+
+                    force.size([force.size()[0] + (width - w) / zoom.scale(), force.size()[1] + (height - h) / zoom.scale()]).resume();
+                    w = width;
+                    h = height;
+                }
+
+                function getScientistDialog(scientist) {
+
+                    var html = "<div id='vcard'>" +
+                            "<div class=''>" +
+                            "<table><tr><td colspan='2'><a target='_new' href='https://en.wikipedia.org" + scientist.url + "'>Wiki page</a><br><br></td></tr>";
+
+                    if (scientist.photo !== "") {
+                        html += "<tr>" +
+                                "<td colspan='2' style='text-align:center;padding-bottom:0.5em'>" +
+                                "<img alt='" + scientist.name + "' src='" + scientist.photo + "' data-file-width='707' data-file-height='919' />" +
+                                "</td>" +
+                                "</tr>";
+                    }
+
+                    if (scientist.born !== "") {
+                        html += "<tr>" +
+                                "<th style='width:150px'>Born</th>" +
+                                "<td>" + scientist.born + "</td>" +
+                                "</tr>";
+                    }
+
+                    if (scientist.died !== "") {
+                        html += "<tr>" +
+                                "<th scope='row'>Died</th>" +
+                                "<td>" + scientist.died + "</td>" +
+                                "</tr>";
+                    }
+
+                    if (scientist.nationality !== "") {
+                        html += "<tr><th scope='row'>Nationality</th>" +
+                                "<td>" + scientist.nationality + "</td>" +
+                                "</tr>";
+                    }
+
+                    if (scientist.fields.length > 0) {
+                        var fields = "";
+                        for (var i = 0; i < scientist.fields.length; i++) {
+                            if (fields !== "")
+                                fields += ", ";
+                            fields += "<a target='_new' href='https://en.wikipedia.org" + scientist.fields[i].key + "' title='" + scientist.fields[i].value + "'>" + scientist.fields[i].value + "</a>";
+                        }
+                        fields = "<tr>" +
+                                "<th scope='row'>Fields</th>" +
+                                "<td>" + fields + "</td></tr>";
+                        html += fields;
+                    }
+
+                    if (scientist.institutions.length > 0) {
+                        var institutions = "";
+                        for (var i = 0; i < scientist.institutions.length; i++) {
+                            if (institutions !== "")
+                                institutions += ", ";
+                            institutions += "<a target='_new' href='https://en.wikipedia.org" + scientist.institutions[i].key + "' title='" + scientist.institutions[i].value + "'>" + scientist.institutions[i].value + "</a>";
+                        }
+                        institutions += "</td></tr>";
+                        html += "<tr>" +
+                                "<th scope='row'>Institutions</th>" +
+                                "<td>" + institutions;
+                    }
+
+                    if (scientist.almamater !== "") {
+                        html += "<tr>" + "<th scope='row'>Alma mater</th>" +
+                                "<td>" + scientist.almamater + "</td>" + "</tr>";
+                    }
+
+                    html += "</table></div></div>";
+                    return html;
+                }
+
+                var nodes = {};
+                var scientistIndex = [];
+                function getInstitutions() {
+                    var result = [];
+                    for (var i = 0; i < scientists.length; i++) {
+                        for (var j = 0; j < scientists[i].institutions.length; j++) {
+                            var s = scientists[i].institutions[j].value;
+                            result.push({"institution": s});
+                        }
+                    }
+
+                    var institutionsCount = d3.nest()
+                            .key(function (d) {
+                                return d.institution;
+                            })
+                            .rollup(function (v) {
+                                return v.length;
+                            })
+                            .sortKeys(d3.ascending)
+                            .entries(result);
+                    return institutionsCount;
+                }
+
+                function getAlmaMater() {
+                    var result = [];
+                    for (var i in scientists) {
+                        if (scientists[i].almamater != "")
+                            result.push(scientists[i].almamater);
+                    }
+
+                    var almamaterCount = d3.nest()
+                            .key(function (d) {
+                                return d;
+                            })
+                            .rollup(function (v) {
+                                return v.length;
+                            })
+                            .sortKeys(d3.ascending)
+                            .entries(result);
+                    return almamaterCount;
+                }
+
+                function getFields() {
+                    var result = [];
+                    for (var i = 0; i < scientists.length; i++) {
+                        for (var j = 0; j < scientists[i].fields.length; j++) {
+                            var s = scientists[i].fields[j].value;
+                            result.push({"field": s});
+                        }
+                    }
+
+                    var fieldsCount = d3.nest()
+                            .key(function (d) {
+                                return d.field;
+                            })
+                            .rollup(function (v) {
+                                return v.length;
+                            })
+                            .sortKeys(d3.ascending)
+                            .entries(result);
+                    return fieldsCount;
+                }
+
+                // global mod keys states for whatever uses
+                var ctrlPressed = false;
+                var shiftPressed = false;
+                var altPressed = false;
+
+                $(document).ready(function () {
+
+                    $(window).keydown(function (evt) {
+                        switch (evt.which) {
+                            case 16:
+                                shiftPressed = true;
+                                break;
+                            case 17:
+                                ctrlPressed = true;
+                                break;
+                            case 18:
+                                altPressed = true;
+                                break;
+                            default:
+                        }
+                    }).keyup(function (evt) {
+                        switch (evt.which) {
+                            case 16:
+                                shiftPressed = false;
+                                break;
+                            case 17:
+                                ctrlPressed = false;
+                                break;
+                            case 18:
+                                altPressed = false;
+                                break;
+                            default:
+                        }
+                    });
+                    var currentContent = "start";
+                    $("." + currentContent).attr("style", "display:block");
+                    $(".action").click(function (e) {
+                        var panelId = e.toElement.id;
+                        console.log(panelId);
+                        if (currentContent !== panelId) {
+                            $("." + currentContent).fadeOut("fast", function () {
+                                $("." + panelId).fadeIn("fast");
+                            });
+                            currentContent = panelId;
+                        }
+                        e.preventDefault();
+                    });
+                    buildIndexToScientists();
+                    buildNetwork();
+                    buildFields();
+                    buildInstitutions();
+                    buildAlmaMater();
+
+                    function buildIndexToScientists() {
+                        for (var i in scientists) {
+                            scientistIndex[scientists[i].url] = i;
+                        }
+                    }
+
+                    function buildAlmaMater() {
+                        var fields = getAlmaMater().sort(function (a, b) {
+                            return (a.values < b.values ? 1 : -1);
+                        });
+                        hashCode = function (str) {
+                            var hash = 0;
+                            if (!str)
+                                return hash;
+                            if (str.length == 0)
+                                return hash;
+                            for (i = 0; i < str.length; i++) {
+                                char = str.charCodeAt(i);
+                                hash = ((hash << 5) - hash) + char;
+                                hash = hash & hash; // Convert to 32bit integer
+                            }
+                            return hash;
+                        }
+
+                        colorfn = function (d) {
+                            return d3.hsl(hashCode(d.key) % 360, 0.5, 0.5)
+                        };
+                        var width = 960,
+                                height = 500;
+                        xlog = d3.scale.log();
+                        xlog.domain([1, 100]);
+                        xlog.range([200, width - 20]);
+                        x = function (x) {
+                            if (x == 0) {
+                                return 200;
+                            } else {
+                                return 200 + xlog(x);
+                            }
+                        };
+                        var svg = d3.select("#almamatercanvas").append("svg")
+                                .attr("width", width)
+                                .attr("height", height)
+                                .append("g")
+                                .attr("transform", "translate(32, 132)");
+
+                        function update(data)
+                        {
+                            // TEXT
+
+                            var step = 15;
+                            var text = svg.selectAll("text")
+                                    .data(data, function (d) {
+                                        return d.key;
+                                    });
+                            // update
+                            text
+                                    .transition()
+                                    .duration(750)
+                                    .attr("y", function (d, i) {
+                                        return i * step;
+                                    })
+                                    .style("fill-opacity", 1);
+                            // enter
+                            text.enter().append("text")
+                                    .style("fill-opacity", 1e-6)
+                                    .style("fill", colorfn)
+                                    .attr("y", height)
+                                    .attr("x", 32)
+                                    .text(function (d) {
+                                        return d.key + " [" + d.values + "]";
+                                    })
+                                    .transition()
+                                    .duration(750)
+                                    .style("fill-opacity", 1)
+                                    .attr("y", function (d, i) {
+                                        return i * step - 13;
+                                    });
+                            // exit
+                            text.exit()
+                                    .transition()
+                                    .duration(750)
+                                    .style("fill-opacity", 1e-6)
+                                    .attr("y", height)
+                                    .remove();
+                            // LINES
+
+                            var line = svg.selectAll(".bar")
+                                    .data(data, function (d) {
+                                        return d.key;
+                                    });
+                            // update
+                            line
+                                    .transition()
+                                    .duration(750)
+                                    .attr("x2", function (d) {
+                                        return x(d.values);
+                                    })
+                                    .attr("y1", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .attr("y2", function (d, i) {
+                                        return i * step - 15;
+                                    })
+
+                                    .style("stroke-opacity", "1");
+                            // enter
+                            line.enter().append("line")
+                                    .attr("class", "bar")
+                                    .attr("y1", height)
+                                    .attr("y2", height)
+                                    .attr("x1", x(0))
+                                    .attr("x2", function (d) {
+                                        return x(d.values);
+                                    })
+                                    .attr("id", function (d) {
+                                        return d.key;
+                                    })
+                                    .style("stroke-width", "10")
+                                    .style("stroke", colorfn)
+                                    .style("stroke-opacity", 1e-6)
+                                    .transition()
+                                    .duration(750)
+                                    .attr("y1", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .attr("y2", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .style("stroke-opacity", 1);
+                            // exit
+                            line.exit()
+                                    .transition()
+                                    .duration(750)
+                                    .attr("y1", height)
+                                    .attr("y2", height)
+                                    .style("stroke-opacity", "0");
+                            // TICKS
+
+                            var tick = svg.selectAll(".tick")
+                                    .data(xlog.ticks());
+                            // enter
+                            tick.enter().append("line")
+                                    .attr("class", "tick")
+                                    .attr("x1", x)
+                                    .attr("x2", x)
+                                    .attr("y1", -100)
+                                    .attr("y2", height)
+                                    .style("stroke-width", 3)
+                                    .style("stroke", "rgb(255,255,255)");
+                        }
+
+                        var test = [[{word: "hello", count: 10},
+                                {word: "world", count: 5}],
+                            [{word: "world", count: 25},
+                                {word: "hello", count: 8}],
+                            [{word: "world", count: 6}],
+                            [{word: "hi", count: 2}]];
+                        update(fields);
+                    }
+
+                    function buildFields() {
+                        var fields = getFields().sort(function (a, b) {
+                            return (a.values < b.values ? 1 : -1);
+                        });
+                        hashCode = function (str) {
+                            var hash = 0;
+                            if (!str)
+                                return hash;
+                            if (str.length == 0)
+                                return hash;
+                            for (i = 0; i < str.length; i++) {
+                                char = str.charCodeAt(i);
+                                hash = ((hash << 5) - hash) + char;
+                                hash = hash & hash; // Convert to 32bit integer
+                            }
+                            return hash;
+                        }
+
+                        colorfn = function (d) {
+                            return d3.hsl(hashCode(d.key) % 360, 0.5, 0.5)
+                        };
+                        var width = 960,
+                                height = 500;
+                        xlog = d3.scale.log();
+                        xlog.domain([1, 100]);
+                        xlog.range([200, width - 20]);
+                        x = function (x) {
+                            if (x == 0) {
+                                return 200;
+                            } else {
+                                return 200 + xlog(x);
+                            }
+                        };
+                        var svg = d3.select("#fieldscanvas").append("svg")
+                                .attr("width", width)
+                                .attr("height", height)
+                                .append("g")
+                                .attr("transform", "translate(32, 132)");
+                        function update(data)
+                        {
+                            // TEXT
+
+                            var step = 15;
+                            var text = svg.selectAll("text")
+                                    .data(data, function (d) {
+                                        return d.key;
+                                    });
+                            // update
+                            text
+                                    .transition()
+                                    .duration(750)
+                                    .attr("y", function (d, i) {
+                                        return i * step;
+                                    })
+                                    .style("fill-opacity", 1);
+                            // enter
+                            text.enter().append("text")
+                                    .style("fill-opacity", 1e-6)
+                                    .style("fill", colorfn)
+                                    .attr("y", height)
+                                    .attr("x", 32)
+                                    .text(function (d) {
+                                        return d.key + " [" + d.values + "]";
+                                    })
+                                    .transition()
+                                    .duration(750)
+                                    .style("fill-opacity", 1)
+                                    .attr("y", function (d, i) {
+                                        return i * step - 13;
+                                    });
+                            // exit
+                            text.exit()
+                                    .transition()
+                                    .duration(750)
+                                    .style("fill-opacity", 1e-6)
+                                    .attr("y", height)
+                                    .remove();
+                            // LINES
+
+                            var line = svg.selectAll(".bar")
+                                    .data(data, function (d) {
+                                        return d.key;
+                                    });
+                            // update
+                            line
+                                    .transition()
+                                    .duration(750)
+                                    .attr("x2", function (d) {
+                                        return x(d.values);
+                                    })
+                                    .attr("y1", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .attr("y2", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .style("stroke-opacity", "1");
+                            // enter
+                            line.enter().append("line")
+                                    .attr("class", "bar")
+                                    .attr("y1", height)
+                                    .attr("y2", height)
+                                    .attr("x1", x(0))
+                                    .attr("x2", function (d) {
+                                        return x(d.values);
+                                    })
+                                    .style("stroke-width", "10")
+                                    .style("stroke", colorfn)
+                                    .style("stroke-opacity", 1e-6)
+                                    .transition()
+                                    .duration(750)
+                                    .attr("y1", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .attr("y2", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .style("stroke-opacity", 1);
+                            // exit
+                            line.exit()
+                                    .transition()
+                                    .duration(750)
+                                    .attr("y1", height)
+                                    .attr("y2", height)
+                                    .style("stroke-opacity", "0");
+                            // TICKS
+
+                            var tick = svg.selectAll(".tick")
+                                    .data(xlog.ticks());
+                            // enter
+                            tick.enter().append("line")
+                                    .attr("class", "tick")
+                                    .attr("x1", x)
+                                    .attr("x2", x)
+                                    .attr("y1", -100)
+                                    .attr("y2", height)
+                                    .style("stroke-width", 3)
+                                    .style("stroke", "rgb(255,255,255)");
+                        }
+
+                        var test = [[{word: "hello", count: 10},
+                                {word: "world", count: 5}],
+                            [{word: "world", count: 25},
+                                {word: "hello", count: 8}],
+                            [{word: "world", count: 6}],
+                            [{word: "hi", count: 2}]];
+                        update(fields);
+                    }
+
+                    function buildInstitutions() {
+
+                        var institutions = getInstitutions().sort(function (a, b) {
+                            return (a.values < b.values ? 1 : -1);
+                        });
+                        hashCode = function (str) {
+                            var hash = 0;
+                            if (!str)
+                                return hash;
+                            if (str.length == 0)
+                                return hash;
+                            for (i = 0; i < str.length; i++) {
+                                char = str.charCodeAt(i);
+                                hash = ((hash << 5) - hash) + char;
+                                hash = hash & hash; // Convert to 32bit integer
+                            }
+                            return hash;
+                        }
+
+                        colorfn = function (d) {
+                            return d3.hsl(hashCode(d.key) % 360, 0.5, 0.5)
+                        };
+                        var width = 960,
+                                height = 500;
+                        xlog = d3.scale.log();
+                        xlog.domain([1, 100]);
+                        xlog.range([200, width - 20]);
+                        x = function (x) {
+                            if (x == 0) {
+                                return 200;
+                            } else {
+                                return 200 + xlog(x);
+                            }
+                        };
+                        var svg = d3.select("#institutionscanvas").append("svg")
+                                .attr("width", width)
+                                .attr("height", height)
+                                .append("g")
+                                .attr("transform", "translate(32, 132)");
+                        function update(data)
+                        {
+                            // TEXT
+
+                            var step = 15;
+                            var text = svg.selectAll("text")
+                                    .data(data, function (d) {
+                                        return d.key;
+                                    });
+                            // update
+                            text
+                                    .transition()
+                                    .duration(750)
+                                    .attr("y", function (d, i) {
+                                        return i * step - 50;
+                                    })
+                                    .style("fill-opacity", 1);
+                            // enter
+                            text.enter().append("text")
+                                    .style("fill-opacity", 1e-6)
+                                    .style("fill", colorfn)
+                                    .attr("y", height)
+                                    .attr("x", 32)
+                                    .text(function (d) {
+                                        return d.key + " [" + d.values + "]";
+                                    })
+                                    .transition()
+                                    .duration(750)
+                                    .style("fill-opacity", 1)
+                                    .attr("y", function (d, i) {
+                                        return i * step - 13;
+                                    });
+                            // exit
+                            text.exit()
+                                    .transition()
+                                    .duration(750)
+                                    .style("fill-opacity", 1e-6)
+                                    .attr("y", height)
+                                    .remove();
+                            // LINES
+
+                            var line = svg.selectAll(".bar")
+                                    .data(data, function (d) {
+                                        return d.key;
+                                    });
+                            // update
+                            line
+                                    .transition()
+                                    .duration(750)
+                                    .attr("x2", function (d) {
+                                        return x(d.values);
+                                    })
+                                    .attr("y1", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .attr("y2", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .style("stroke-opacity", "1");
+                            // enter
+                            line.enter().append("line")
+                                    .attr("class", "bar")
+                                    .attr("y1", height)
+                                    .attr("y2", height)
+                                    .attr("x1", x(0))
+                                    .attr("x2", function (d) {
+                                        return x(d.values);
+                                    })
+                                    .style("stroke-width", "12")
+                                    .style("stroke", colorfn)
+                                    .style("stroke-opacity", 1e-6)
+                                    .transition()
+                                    .duration(750)
+                                    .attr("y1", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .attr("y2", function (d, i) {
+                                        return i * step - 15;
+                                    })
+                                    .style("stroke-opacity", 1);
+                            // exit
+                            line.exit()
+                                    .transition()
+                                    .duration(750)
+                                    .attr("y1", height)
+                                    .attr("y2", height)
+                                    .style("stroke-opacity", "0");
+                            // TICKS
+
+                            var tick = svg.selectAll(".tick")
+                                    .data(xlog.ticks());
+                            // enter
+                            tick.enter().append("line")
+                                    .attr("class", "tick")
+                                    .attr("x1", x)
+                                    .attr("x2", x)
+                                    .attr("y1", -100)
+                                    .attr("y2", height)
+                                    .style("stroke-width", 3)
+                                    .style("stroke", "rgb(255,255,255)");
+                        }
+
+                        var test = [[{word: "hello", count: 10},
+                                {word: "world", count: 5}],
+                            [{word: "world", count: 25},
+                                {word: "hello", count: 8}],
+                            [{word: "world", count: 6}],
+                            [{word: "hi", count: 2}]];
+                        update(institutions);
+                    }
+
+                    var iniLeft;
+                    var iniTop;
+                    var moving = false;
+                    function md() {
+                        moving = true;
+                        //iniLeft = $("#graphcanvas").style('left');
+                        console.log(iniLeft);
+                    }
+
+                    function mu() {
+                        moving = false;
+                    }
+
+                    function mm() {
+
+                    }
+
+                    function buildNetwork() {
+
+                        // Compute the distinct nodes from the links.
+                        links.forEach(function (link) {
+                            link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+                            link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
+                            //link.type = "link suit";
+                        });
+                        var width = 960,
+                                height = 500;
+                        var force = d3.layout.force()
+                                .nodes(d3.values(nodes))
+                                .links(links)
+                                .size([width, height])
+                                .linkDistance(60)
+                                .charge(-300)
+                                .on("tick", tick)
+                                .start();
+
+                        var zoom = d3.behavior.zoom().scaleExtent([min_zoom, max_zoom]);
+
+                        var svg = d3.select("#graphcanvas").append("svg")
+                                .attr("id", "graphsvg")
+                                .attr("class", "scaling-svg");
+
+                        // Per-type markers, as they don't inherit styles.
+                        svg.append("defs").selectAll("marker")
+                                .data(["suit", "licensing", "resolved"])
+                                .enter().append("marker")
+                                .attr("id", function (d) {
+                                    return d;
+                                })
+                                .attr("viewBox", "0 -5 10 10")
+                                .attr("refX", 15)
+                                .attr("refY", -1.5)
+                                .attr("markerWidth", 6)
+                                .attr("markerHeight", 6)
+                                .attr("orient", "auto")
+                                .append("path")
+                                .attr("d", "M0,-5L10,0L0,5");
+
+                        var g = svg.append("g");
+
+                        var path = g.selectAll("path")
+                                .data(force.links())
+                                .enter().append("path")
+                                .attr("idfrom", linkFrom)
+                                .attr("idto", linkTo)
+                                .attr("class", function (d) {
+                                    return "link " + d.type;
+                                })
+                                .attr("marker-end", function (d) {
+                                    return "url(#" + d.type + ")";
+                                });
+
+                        var currentIds = [];
+
+                        var circle = g.selectAll("circle")
+                                .data(force.nodes())
+                                .enter().append("circle")
+                                .attr("r", 6)
+                                .attr("id", function (d) {
+                                    return "node_" + scientistIndex[d.name];
+                                })
+                                // show popup with scientist information
+                                .on("click", function () {
+                                    if (shiftPressed) {
+                                        $("#dialog_scientist").html(getScientistDialog(scientists[this.id.split("_")[1]]));
+                                        $("#dialog_scientist").dialog({
+                                            title: scientists[this.id.split("_")[1]].name,
+                                            resizable: true,
+                                            width: 480,
+                                            modal: true
+                                        });
+                                    }
+                                })
+                                // select scientist, advisers and students
+                                .on("dblclick", function () {
+                                    if (ctrlPressed) { // add to selection
+
+                                        // if is selected, remove from selection
+                                        if (currentIds.contains(this.id)) {
+                                            d3.select("#" + this.id).style("fill", "#ccc").style("stroke", "#333");
+                                            d3.selectAll("[idfrom='" + this.id.split("_")[1] + "']").style("stroke", "#666").style("stroke-width", "1.5");
+                                            d3.selectAll("[idto='" + this.id.split("_")[1] + "']").style("stroke", "#666").style("stroke-width", "1.5");
+                                            currentIds.remove(this.id);
+                                        } else {
+                                            // add to selection
+                                            currentIds.push(this.id);
+                                            d3.select(this)
+                                                    .style("fill", "lightcoral")
+                                                    .style("stroke", "red");
+                                            d3.selectAll("[idto='" + this.id.split("_")[1] + "']").style("stroke", "#66f").style("stroke-width", "2.5");
+                                            d3.selectAll("[idfrom='" + this.id.split("_")[1] + "']").style("stroke", "#f66").style("stroke-width", "2.5");
+                                        }
+                                    } else { // 
+                                        if (currentIds.contains(this.id)) { // remove this from selection
+                                            d3.select("#" + this.id).style("fill", "#ccc").style("stroke", "#333");
+                                            d3.selectAll("[idfrom='" + this.id.split("_")[1] + "']").style("stroke", "#666").style("stroke-width", "1.5");
+                                            d3.selectAll("[idto='" + this.id.split("_")[1] + "']").style("stroke", "#666").style("stroke-width", "1.5");
+                                            currentIds.remove(this.id);
+                                        } else {
+                                            // no ctrl, substitute selection
+                                            // revert selected IDs to normal style
+                                            for (var i = 0; i < currentIds.length; i++) {
+                                                d3.select("#" + currentIds[i]).style("fill", "#ccc").style("stroke", "#333");
+                                                d3.selectAll("[idfrom='" + currentIds[i].split("_")[1] + "']").style("stroke", "#666").style("stroke-width", "1.5");
+                                                d3.selectAll("[idto='" + currentIds[i].split("_")[1] + "']").style("stroke", "#666").style("stroke-width", "1.5");
+                                            }
+
+                                            d3.select(this)
+                                                    .style("fill", "lightcoral")
+                                                    .style("stroke", "red");
+                                            d3.selectAll("[idto='" + this.id.split("_")[1] + "']").style("stroke", "#66f").style("stroke-width", "2.5");
+                                            d3.selectAll("[idfrom='" + this.id.split("_")[1] + "']").style("stroke", "#f66").style("stroke-width", "2.5");
+                                            currentIds = [this.id];
+                                        }
+
+                                    }
+
+                                })
+                                .call(force.drag);
+
+                        circle.selectAll("node").on("click", function () {
+                            d3.select(this).attr('r', 25)
+                                    .style("fill", "lightcoral")
+                                    .style("stroke", "red");
+                        });
+
+                        var text = g.selectAll("text")
+                                .data(force.nodes())
+                                .enter().append("text")
+                                .attr("x", 8)
+                                .attr("y", ".31em")
+                                .attr("id", function (d) {
+                                    return "text_" + scientistIndex[d.name];
+                                })
+                                .text(function (d) {
+                                    //return d.name;
+                                    // d.name is in fact the url     
+                                    var i = scientistIndex[d.name];
+                                    return scientists[i].name;
+                                });
+
+                        if (text_center)
+                            text.text(function (d) {
+                                var i = scientistIndex[d.name];
+                                return scientists[i].name;
+                            })
+                                    .style("text-anchor", "middle");
+                        else
+                            text.attr("dx", function (d) {
+                                return (size(d.size) || nominal_base_node_size);
+                            })
+                                    .text(function (d) {
+                                        var i = scientistIndex[d.name];
+                                        return '\u2002' + scientists[i].name;
+                                    });
+
+
+                        // Use elliptical arc path segments to doubly-encode directionality.
+                        function tick() {
+                            path.attr("d", linkArc);
+                            circle.attr("transform", transform);
+                            text.attr("transform", transform);
+                        }
+
+
+                        zoom.on("zoom", function () {
+
+                            var stroke = nominal_stroke;
+                            if (nominal_stroke * zoom.scale() > max_stroke)
+                                stroke = max_stroke / zoom.scale();
+                            path.style("stroke-width", stroke);
+                            circle.style("stroke-width", stroke);
+
+                            var base_radius = nominal_base_node_size;
+                            if (nominal_base_node_size * zoom.scale() > max_base_node_size)
+                                base_radius = max_base_node_size / zoom.scale();
+                            circle.attr("d", d3.svg.symbol()
+                                    .size(function (d) {
+                                        return Math.PI * Math.pow(size(d.size) * base_radius / nominal_base_node_size || base_radius, 2);
+                                    })
+                                    .type(function (d) {
+                                        return d.type;
+                                    }))
+
+                            //circle.attr("r", function(d) { return (size(d.size)*base_radius/nominal_base_node_size||base_radius); })
+                            if (!text_center)
+                                text.attr("dx", function (d) {
+                                    return (size(d.size) * base_radius / nominal_base_node_size || base_radius);
+                                });
+
+                            var text_size = nominal_text_size;
+                            if (nominal_text_size * zoom.scale() > max_text_size)
+                                text_size = max_text_size / zoom.scale();
+                            text.style("font-size", text_size + "px");
+
+                            g.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+                        });
+
+                        svg.call(zoom);
+
+                        resize();
+
+                        d3.select(window).on("resize", resize).on("keydown", keydown);
+
+                        function linkArc(d) {
+                            var dx = d.target.x - d.source.x,
+                                    dy = d.target.y - d.source.y,
+                                    dr = Math.sqrt(dx * dx + dy * dy);
+                            return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
+                        }
+
+                        function linkFrom(d) {
+                            return scientistIndex[d.source.name];
+                        }
+
+                        function linkTo(d) {
+                            return scientistIndex[d.target.name];
+                        }
+
+                        function transform(d) {
+                            return "translate(" + d.x + "," + d.y + ")";
+                        }
+
+                    }
+                });
+            </script>
+        </div>
+    </body>
+</html>

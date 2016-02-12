@@ -1,0 +1,4781 @@
+var links = [{
+    source: "/wiki/Alan_Turing",
+    target: "/wiki/Robin_Gandy",
+    type: "suit"
+}, {
+    source: "/wiki/Robin_Gandy",
+    target: "/wiki/Martin_Hyland",
+    type: "suit"
+}, {
+    source: "/wiki/Martin_Hyland",
+    target: "/wiki/Valeria_de_Paiva",
+    type: "suit"
+}, {
+    source: "/wiki/Robin_Gandy",
+    target: "/wiki/Jeff_Paris",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Alan_Turing",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/C._Anthony_Anderson",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Peter_Andrews_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/George_Alfred_Barnard",
+    type: "suit"
+}, {
+    source: "/wiki/George_Alfred_Barnard",
+    target: "/wiki/Dennis_Lindley",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Lindley",
+    target: "/wiki/Adrian_Smith_(academic)",
+    type: "suit"
+}, {
+    source: "/wiki/Adrian_Smith_(academic)",
+    target: "/wiki/David_Spiegelhalter",
+    type: "suit"
+}, {
+    source: "/wiki/Adrian_Smith_(statistician)",
+    target: "/wiki/David_Spiegelhalter",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Lindley",
+    target: "/wiki/John_C._Gittins",
+    type: "suit"
+}, {
+    source: "/wiki/George_A._Barnard",
+    target: "/wiki/Dennis_Lindley",
+    type: "suit"
+}, {
+    source: "/wiki/George_A._Barnard",
+    target: "/wiki/K._D._Tocher",
+    type: "suit"
+}, {
+    source: "/wiki/K._D._Tocher",
+    target: "/wiki/Meir_M._Lehman",
+    type: "suit"
+}, {
+    source: "/wiki/Meir_M._Lehman",
+    target: "/wiki/Peter_G._Harrison",
+    type: "suit"
+}, {
+    source: "/wiki/Peter_G._Harrison",
+    target: "/wiki/Edwige_Pitel",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Martin_Davis",
+    type: "suit"
+}, {
+    source: "/wiki/Martin_Davis",
+    target: "/wiki/Moshe_Koppel",
+    type: "suit"
+}, {
+    source: "/wiki/Martin_Davis",
+    target: "/wiki/Donald_W._Loveland",
+    type: "suit"
+}, {
+    source: "/wiki/Donald_W._Loveland",
+    target: "/wiki/Owen_Astrachan",
+    type: "suit"
+}, {
+    source: "/wiki/Donald_W._Loveland",
+    target: "/wiki/Susan_Gerhart",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Leon_Henkin",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/David_Kaplan_(philosopher)",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/John_George_Kemeny",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Stephen_Kleene",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Kleene",
+    target: "/wiki/Robert_Lee_Constable",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Lee_Constable",
+    target: "/wiki/Steven_Muchnick",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Lee_Constable",
+    target: "/wiki/Kurt_Mehlhorn",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Lee_Constable",
+    target: "/wiki/Edmund_M._Clarke",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Lee_Constable",
+    target: "/wiki/Robert_Harper_(computer_scientist)",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Kleene",
+    target: "/wiki/Joan_Moschovakis",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Kleene",
+    target: "/wiki/Yiannis_Moschovakis",
+    type: "suit"
+}, {
+    source: "/wiki/Yiannis_Moschovakis",
+    target: "/wiki/Alexander_S._Kechris",
+    type: "suit"
+}, {
+    source: "/wiki/Yiannis_N._Moschovakis",
+    target: "/wiki/Alexander_S._Kechris",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Kleene",
+    target: "/wiki/Nels_David_Nelson",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Kleene",
+    target: "/wiki/Dick_de_Jongh",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Gary_R._Mar",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Michael_O._Rabin",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_O._Rabin",
+    target: "/wiki/Mosh%C3%A9_Machover",
+    type: "suit"
+}, {
+    source: "/wiki/Mosh%C3%A9_Machover",
+    target: "/wiki/Paul_Ernest",
+    type: "suit"
+}, {
+    source: "/wiki/Andrzej_Mostowski",
+    target: "/wiki/Mosh%C3%A9_Machover",
+    type: "suit"
+}, {
+    source: "/wiki/Andrzej_Mostowski",
+    target: "/wiki/Andrzej_Ehrenfeucht",
+    type: "suit"
+}, {
+    source: "/wiki/Andrzej_Ehrenfeucht",
+    target: "/wiki/David_Haussler",
+    type: "suit"
+}, {
+    source: "/wiki/David_Haussler",
+    target: "/wiki/Yoav_Freund",
+    type: "suit"
+}, {
+    source: "/wiki/Manfred_K._Warmuth",
+    target: "/wiki/Yoav_Freund",
+    type: "suit"
+}, {
+    source: "/wiki/David_Haussler",
+    target: "/wiki/Adam_C._Siepel",
+    type: "suit"
+}, {
+    source: "/wiki/Andrzej_Ehrenfeucht",
+    target: "/wiki/Eugene_Myers",
+    type: "suit"
+}, {
+    source: "/wiki/Andrzej_Mostowski",
+    target: "/wiki/Helena_Rasiowa",
+    type: "suit"
+}, {
+    source: "/wiki/Andrzej_Mostowski",
+    target: "/wiki/Roman_Sikorski",
+    type: "suit"
+}, {
+    source: "/wiki/Kazimierz_Kuratowski",
+    target: "/wiki/Andrzej_Mostowski",
+    type: "suit"
+}, {
+    source: "/wiki/Kazimierz_Kuratowski",
+    target: "/wiki/Samuel_Eilenberg",
+    type: "suit"
+}, {
+    source: "/wiki/Samuel_Eilenberg",
+    target: "/wiki/Jonathan_Mock_Beck",
+    type: "suit"
+}, {
+    source: "/wiki/Samuel_Eilenberg",
+    target: "/wiki/David_Buchsbaum",
+    type: "suit"
+}, {
+    source: "/wiki/Samuel_Eilenberg",
+    target: "/wiki/Martin_Charles_Golumbic",
+    type: "suit"
+}, {
+    source: "/wiki/Samuel_Eilenberg",
+    target: "/wiki/Daniel_Kan",
+    type: "suit"
+}, {
+    source: "/wiki/Daniel_Kan",
+    target: "/wiki/Jeffrey_H._Smith",
+    type: "suit"
+}, {
+    source: "/wiki/Samuel_Eilenberg",
+    target: "/wiki/William_Lawvere",
+    type: "suit"
+}, {
+    source: "/wiki/Samuel_Eilenberg",
+    target: "/wiki/Ramaiyengar_Sridharan",
+    type: "suit"
+}, {
+    source: "/wiki/Ramaiyengar_Sridharan",
+    target: "/wiki/Raman_Parimala",
+    type: "suit"
+}, {
+    source: "/wiki/Raman_Parimala",
+    target: "/wiki/Sujatha_Ramdorai",
+    type: "suit"
+}, {
+    source: "/wiki/Raman_Parimala",
+    target: "/wiki/Suresh_Venapally",
+    type: "suit"
+}, {
+    source: "/wiki/R._Sridharan",
+    target: "/wiki/Raman_Parimala",
+    type: "suit"
+}, {
+    source: "/wiki/Karol_Borsuk",
+    target: "/wiki/Samuel_Eilenberg",
+    type: "suit"
+}, {
+    source: "/wiki/Karol_Borsuk",
+    target: "/wiki/Jan_Jaworowski",
+    type: "suit"
+}, {
+    source: "/wiki/Karol_Borsuk",
+    target: "/wiki/W%C5%82odzimierz_Kuperberg",
+    type: "suit"
+}, {
+    source: "/wiki/Karol_Borsuk",
+    target: "/wiki/Krystyna_Kuperberg",
+    type: "suit"
+}, {
+    source: "/wiki/William_Jaco",
+    target: "/wiki/Krystyna_Kuperberg",
+    type: "suit"
+}, {
+    source: "/wiki/Stefan_Mazurkiewicz",
+    target: "/wiki/Karol_Borsuk",
+    type: "suit"
+}, {
+    source: "/wiki/Kazimierz_Kuratowski",
+    target: "/wiki/Stanislaw_Ulam",
+    type: "suit"
+}, {
+    source: "/wiki/Stanislaw_Ulam",
+    target: "/wiki/Paul_Kelly_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Zygmunt_Janiszewski",
+    target: "/wiki/Kazimierz_Kuratowski",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Lebesgue",
+    target: "/wiki/Zygmunt_Janiszewski",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Lebesgue",
+    target: "/wiki/Paul_Montel",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Montel",
+    target: "/wiki/Mieczys%C5%82aw_Biernacki",
+    type: "suit"
+}, {
+    source: "/wiki/Mieczys%C5%82aw_Biernacki",
+    target: "/wiki/Czes%C5%82aw_Ryll-Nardzewski",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Montel",
+    target: "/wiki/Henri_Cartan",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Cartan",
+    target: "/wiki/Jean-Paul_Benz%C3%A9cri",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Cartan",
+    target: "/wiki/Pierre_Cartier_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Pierre_Cartier_(mathematician)",
+    target: "/wiki/Guy_Henniart",
+    type: "suit"
+}, {
+    source: "/wiki/Andr%C3%A9_Weil",
+    target: "/wiki/Pierre_Cartier_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Andr%C3%A9_Weil",
+    target: "/wiki/Harley_Flanders",
+    type: "suit"
+}, {
+    source: "/wiki/Harley_Flanders",
+    target: "/wiki/Theodore_Frankel",
+    type: "suit"
+}, {
+    source: "/wiki/Otto_Schilling",
+    target: "/wiki/Harley_Flanders",
+    type: "suit"
+}, {
+    source: "/wiki/Andr%C3%A9_Weil",
+    target: "/wiki/William_Alvin_Howard",
+    type: "suit"
+}, {
+    source: "/wiki/Andr%C3%A9_Weil",
+    target: "/wiki/Teruhisa_Matsusaka",
+    type: "suit"
+}, {
+    source: "/wiki/Teruhisa_Matsusaka",
+    target: "/wiki/J%C3%A1nos_Koll%C3%A1r",
+    type: "suit"
+}, {
+    source: "/wiki/J%C3%A1nos_Koll%C3%A1r",
+    target: "/wiki/Alessio_Corti",
+    type: "suit"
+}, {
+    source: "/wiki/Alessio_Corti",
+    target: "/wiki/Vladimir_Lazi%C4%87",
+    type: "suit"
+}, {
+    source: "/wiki/Andr%C3%A9_Weil",
+    target: "/wiki/Peter_Swinnerton-Dyer",
+    type: "suit"
+}, {
+    source: "/wiki/Peter_Swinnerton-Dyer",
+    target: "/wiki/Jean-Louis_Colliot-Th%C3%A9l%C3%A8ne",
+    type: "suit"
+}, {
+    source: "/wiki/Andr%C3%A9_N%C3%A9ron",
+    target: "/wiki/Jean-Louis_Colliot-Th%C3%A9l%C3%A8ne",
+    type: "suit"
+}, {
+    source: "/wiki/Peter_Swinnerton-Dyer",
+    target: "/wiki/Miles_Reid",
+    type: "suit"
+}, {
+    source: "/wiki/Miles_Reid",
+    target: "/wiki/Kevin_Houston_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Miles_Reid",
+    target: "/wiki/Nicholas_Shepherd-Barron",
+    type: "suit"
+}, {
+    source: "/wiki/Pierre_Deligne",
+    target: "/wiki/Miles_Reid",
+    type: "suit"
+}, {
+    source: "/wiki/Pierre_Deligne",
+    target: "/wiki/L%C3%AA_D%C5%A9ng_Tr%C3%A1ng",
+    type: "suit"
+}, {
+    source: "/wiki/Pierre_Deligne",
+    target: "/wiki/Michael_Rapoport",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_Rapoport",
+    target: "/wiki/Peter_Scholze",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Grothendieck",
+    target: "/wiki/Pierre_Deligne",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Grothendieck",
+    target: "/wiki/Pierre_Berthelot",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Grothendieck",
+    target: "/wiki/Michel_Demazure",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Grothendieck",
+    target: "/wiki/Pierre_Gabriel",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Grothendieck",
+    target: "/wiki/Jean_Giraud_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Grothendieck",
+    target: "/wiki/Luc_Illusie",
+    type: "suit"
+}, {
+    source: "/wiki/Luc_Illusie",
+    target: "/wiki/G%C3%A9rard_Laumon",
+    type: "suit"
+}, {
+    source: "/wiki/G%C3%A9rard_Laumon",
+    target: "/wiki/Laurent_Lafforgue",
+    type: "suit"
+}, {
+    source: "/wiki/G%C3%A9rard_Laumon",
+    target: "/wiki/Ng%C3%B4_B%E1%BA%A3o_Ch%C3%A2u",
+    type: "suit"
+}, {
+    source: "/wiki/G%C3%A9rard_Laumon",
+    target: "/wiki/Sophie_Morel",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Grothendieck",
+    target: "/wiki/Michel_Raynaud",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Grothendieck",
+    target: "/wiki/Ho%C3%A0ng_Xu%C3%A2n_S%C3%ADnh",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Grothendieck",
+    target: "/wiki/Jean-Louis_Verdier",
+    type: "suit"
+}, {
+    source: "/wiki/Jean-Louis_Verdier",
+    target: "/wiki/Arnaud_Beauville",
+    type: "suit"
+}, {
+    source: "/wiki/Arnaud_Beauville",
+    target: "/wiki/Olivier_Debarre",
+    type: "suit"
+}, {
+    source: "/wiki/Arnaud_Beauville",
+    target: "/wiki/Yves_Laszlo",
+    type: "suit"
+}, {
+    source: "/wiki/Arnaud_Beauville",
+    target: "/wiki/Claire_Voisin",
+    type: "suit"
+}, {
+    source: "/wiki/John_Edensor_Littlewood",
+    target: "/wiki/Peter_Swinnerton-Dyer",
+    type: "suit"
+}, {
+    source: "/wiki/John_Edensor_Littlewood",
+    target: "/wiki/A._O._L._Atkin",
+    type: "suit"
+}, {
+    source: "/wiki/John_Edensor_Littlewood",
+    target: "/wiki/Sarvadaman_Chowla",
+    type: "suit"
+}, {
+    source: "/wiki/Sarvadaman_Chowla",
+    target: "/wiki/John_Friedlander",
+    type: "suit"
+}, {
+    source: "/wiki/John_Friedlander",
+    target: "/wiki/Cem_Y%C4%B1ld%C4%B1r%C4%B1m",
+    type: "suit"
+}, {
+    source: "/wiki/John_Edensor_Littlewood",
+    target: "/wiki/Harold_Davenport",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_Davenport",
+    target: "/wiki/John_Horton_Conway",
+    type: "suit"
+}, {
+    source: "/wiki/John_Horton_Conway",
+    target: "/wiki/Richard_Borcherds",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Borcherds",
+    target: "/wiki/Daniel_Allcock",
+    type: "suit"
+}, {
+    source: "/wiki/John_Horton_Conway",
+    target: "/wiki/Simon_P._Norton",
+    type: "suit"
+}, {
+    source: "/wiki/John_Horton_Conway",
+    target: "/wiki/Robert_Arnott_Wilson",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_Davenport",
+    target: "/wiki/Alan_Baker_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Alan_Baker_(mathematician)",
+    target: "/wiki/John_Coates_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coates_(mathematician)",
+    target: "/wiki/Pierre_Colmez",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Coates",
+    target: "/wiki/Pierre_Colmez",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Coates",
+    target: "/wiki/Matthias_Flach_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Coates",
+    target: "/wiki/Susan_Howson",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Coates",
+    target: "/wiki/Andrew_Wiles",
+    type: "suit"
+}, {
+    source: "/wiki/Andrew_Wiles",
+    target: "/wiki/Manjul_Bhargava",
+    type: "suit"
+}, {
+    source: "/wiki/Andrew_Wiles",
+    target: "/wiki/Brian_Conrad",
+    type: "suit"
+}, {
+    source: "/wiki/Andrew_Wiles",
+    target: "/wiki/Fred_Diamond",
+    type: "suit"
+}, {
+    source: "/wiki/Andrew_Wiles",
+    target: "/wiki/Karl_Rubin",
+    type: "suit"
+}, {
+    source: "/wiki/Andrew_Wiles",
+    target: "/wiki/Richard_Taylor_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Jean-Marc_Fontaine",
+    target: "/wiki/Pierre_Colmez",
+    type: "suit"
+}, {
+    source: "/wiki/Jean-Marc_Fontaine",
+    target: "/wiki/Christophe_Breuil",
+    type: "suit"
+}, {
+    source: "/wiki/Jean-Marc_Fontaine",
+    target: "/wiki/Jean-Pierre_Wintenberger",
+    type: "suit"
+}, {
+    source: "/wiki/Jean-Pierre_Serre",
+    target: "/wiki/Jean-Marc_Fontaine",
+    type: "suit"
+}, {
+    source: "/wiki/Jean-Pierre_Serre",
+    target: "/wiki/Michel_Brou%C3%A9",
+    type: "suit"
+}, {
+    source: "/wiki/Michel_Brou%C3%A9",
+    target: "/wiki/Rapha%C3%ABl_Rouquier",
+    type: "suit"
+}, {
+    source: "/wiki/J.G._Thompson",
+    target: "/wiki/Rapha%C3%ABl_Rouquier",
+    type: "suit"
+}, {
+    source: "/wiki/J.G._Thompson",
+    target: "/wiki/R._L._Griess",
+    type: "suit"
+}, {
+    source: "/wiki/J.G._Thompson",
+    target: "/wiki/Richard_Lyons_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/J.G._Thompson",
+    target: "/wiki/Charles_Sims_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_MacLane",
+    target: "/wiki/J.G._Thompson",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_MacLane",
+    target: "/wiki/Steve_Awodey",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_MacLane",
+    target: "/wiki/David_Eisenbud",
+    type: "suit"
+}, {
+    source: "/wiki/David_Eisenbud",
+    target: "/wiki/Irena_Peeva",
+    type: "suit"
+}, {
+    source: "/wiki/David_Eisenbud",
+    target: "/wiki/Craig_Huneke",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_Mac_Lane",
+    target: "/wiki/David_Eisenbud",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_Mac_Lane",
+    target: "/wiki/Irving_Kaplansky",
+    type: "suit"
+}, {
+    source: "/wiki/Irving_Kaplansky",
+    target: "/wiki/Hyman_Bass",
+    type: "suit"
+}, {
+    source: "/wiki/Hyman_Bass",
+    target: "/wiki/Tsit_Yuen_Lam",
+    type: "suit"
+}, {
+    source: "/wiki/Irving_Kaplansky",
+    target: "/wiki/Susanna_S._Epp",
+    type: "suit"
+}, {
+    source: "/wiki/Irving_Kaplansky",
+    target: "/wiki/G%C3%BCnter_Lumer",
+    type: "suit"
+}, {
+    source: "/wiki/Irving_Kaplansky",
+    target: "/wiki/Eben_Matlis",
+    type: "suit"
+}, {
+    source: "/wiki/Irving_Kaplansky",
+    target: "/wiki/Donald_Samuel_Ornstein",
+    type: "suit"
+}, {
+    source: "/wiki/Irving_Kaplansky",
+    target: "/wiki/Ed_Posner",
+    type: "suit"
+}, {
+    source: "/wiki/Irving_Kaplansky",
+    target: "/wiki/Alex_F._T._W._Rosenberg",
+    type: "suit"
+}, {
+    source: "/wiki/Irving_Kaplansky",
+    target: "/wiki/Judith_D._Sally",
+    type: "suit"
+}, {
+    source: "/wiki/Irving_Kaplansky",
+    target: "/wiki/Harold_Widom",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_Mac_Lane",
+    target: "/wiki/Roger_Lyndon",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_Mac_Lane",
+    target: "/wiki/Michael_D._Morley",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_Mac_Lane",
+    target: "/wiki/Anil_Nerode",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_Mac_Lane",
+    target: "/wiki/Robert_Solovay",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Solovay",
+    target: "/wiki/Matthew_Foreman",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_M._Solovay",
+    target: "/wiki/Matthew_Foreman",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_M._Solovay",
+    target: "/wiki/Judith_Roitman",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_M._Solovay",
+    target: "/wiki/W._Hugh_Woodin",
+    type: "suit"
+}, {
+    source: "/wiki/W._Hugh_Woodin",
+    target: "/wiki/Joel_David_Hamkins",
+    type: "suit"
+}, {
+    source: "/wiki/W._Hugh_Woodin",
+    target: "/wiki/Gregory_Hjorth",
+    type: "suit"
+}, {
+    source: "/wiki/Saunders_Mac_Lane",
+    target: "/wiki/John_G._Thompson",
+    type: "suit"
+}, {
+    source: "/wiki/Hermann_Weyl",
+    target: "/wiki/Saunders_Mac_Lane",
+    type: "suit"
+}, {
+    source: "/wiki/Hermann_Weyl",
+    target: "/wiki/Alexander_Weinstein",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Hermann_Weyl",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Wilhelm_Ackermann",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Heinrich_Behmann",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Otto_Blumenthal",
+    type: "suit"
+}, {
+    source: "/wiki/Otto_Blumenthal",
+    target: "/wiki/Karl_Gehlen",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Werner_Boy",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Richard_Courant",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/Herbert_Busemann",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/William_Feller",
+    type: "suit"
+}, {
+    source: "/wiki/William_Feller",
+    target: "/wiki/George_Forsythe",
+    type: "suit"
+}, {
+    source: "/wiki/George_Forsythe",
+    target: "/wiki/Richard_Brent_(scientist)",
+    type: "suit"
+}, {
+    source: "/wiki/George_Forsythe",
+    target: "/wiki/J._Alan_George",
+    type: "suit"
+}, {
+    source: "/wiki/George_Forsythe",
+    target: "/wiki/Cleve_Moler",
+    type: "suit"
+}, {
+    source: "/wiki/Cleve_Moler",
+    target: "/wiki/Jack_Dongarra",
+    type: "suit"
+}, {
+    source: "/wiki/Cleve_Moler",
+    target: "/wiki/Charles_F._Van_Loan",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Tamarkin",
+    target: "/wiki/George_Forsythe",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Tamarkin",
+    target: "/wiki/Dorothy_Lewis_Bernstein",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Tamarkin",
+    target: "/wiki/Nelson_Dunford",
+    type: "suit"
+}, {
+    source: "/wiki/Nelson_Dunford",
+    target: "/wiki/Shaul_Foguel",
+    type: "suit"
+}, {
+    source: "/wiki/Nelson_Dunford",
+    target: "/wiki/Jacob_T._Schwartz",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_T._Schwartz",
+    target: "/wiki/Jerry_Hobbs",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_T._Schwartz",
+    target: "/wiki/Ken_Kennedy_(computer_scientist)",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_T._Schwartz",
+    target: "/wiki/Robert_Kupperman",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_T._Schwartz",
+    target: "/wiki/Stanley_Osher",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_T._Schwartz",
+    target: "/wiki/Gian-Carlo_Rota",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_T._Schwartz",
+    target: "/wiki/Shmuel_Winograd",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Tamarkin",
+    target: "/wiki/Derrick_Henry_Lehmer",
+    type: "suit"
+}, {
+    source: "/wiki/Derrick_Henry_Lehmer",
+    target: "/wiki/Tom_Apostol",
+    type: "suit"
+}, {
+    source: "/wiki/Tom_Apostol",
+    target: "/wiki/Basil_Gordon",
+    type: "suit"
+}, {
+    source: "/wiki/Tom_Apostol",
+    target: "/wiki/Abe_Sklar",
+    type: "suit"
+}, {
+    source: "/wiki/Derrick_Henry_Lehmer",
+    target: "/wiki/Ronald_Graham",
+    type: "suit"
+}, {
+    source: "/wiki/Derrick_Henry_Lehmer",
+    target: "/wiki/Harold_Stark",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_Stark",
+    target: "/wiki/Jeffrey_Lagarias",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_Stark",
+    target: "/wiki/M._Ram_Murty",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_Stark",
+    target: "/wiki/Andrew_Odlyzko",
+    type: "suit"
+}, {
+    source: "/wiki/Derrick_Henry_Lehmer",
+    target: "/wiki/Peter_J._Weinberger",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Tamarkin",
+    target: "/wiki/Rose_Whelan_Sedgewick",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_David_Tamarkin",
+    target: "/wiki/Rose_Whelan_Sedgewick",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Markov",
+    target: "/wiki/Jacob_David_Tamarkin",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Markov",
+    target: "/wiki/Abram_Besicovitch",
+    type: "suit"
+}, {
+    source: "/wiki/Abram_Besicovitch",
+    target: "/wiki/Joseph_Gillis",
+    type: "suit"
+}, {
+    source: "/wiki/Joseph_Gillis",
+    target: "/wiki/Achi_Brandt",
+    type: "suit"
+}, {
+    source: "/wiki/Abram_Samoilovitch_Besicovitch",
+    target: "/wiki/Joseph_Gillis",
+    type: "suit"
+}, {
+    source: "/wiki/Abram_Samoilovitch_Besicovitch",
+    target: "/wiki/Pat_Moran_(statistician)",
+    type: "suit"
+}, {
+    source: "/wiki/Pat_Moran_(statistician)",
+    target: "/wiki/Warren_Ewens",
+    type: "suit"
+}, {
+    source: "/wiki/Pat_Moran_(statistician)",
+    target: "/wiki/Charles_E._M._Pearce",
+    type: "suit"
+}, {
+    source: "/wiki/Abram_Samoilovitch_Besicovitch",
+    target: "/wiki/Gholamhossein_Mosaheb",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Markov",
+    target: "/wiki/Nikolai_G%C3%BCnther",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Markov",
+    target: "/wiki/Veniamin_Kagan",
+    type: "suit"
+}, {
+    source: "/wiki/Veniamin_Kagan",
+    target: "/wiki/Viktor_Wagner",
+    type: "suit"
+}, {
+    source: "/wiki/Viktor_Wagner",
+    target: "/wiki/Boris_Schein",
+    type: "suit"
+}, {
+    source: "/wiki/Veniamin_Kagan",
+    target: "/wiki/Isaak_Yaglom",
+    type: "suit"
+}, {
+    source: "/wiki/Boris_Delaunay",
+    target: "/wiki/Isaak_Yaglom",
+    type: "suit"
+}, {
+    source: "/wiki/Boris_Delaunay",
+    target: "/wiki/Aleksandr_Danilovich_Aleksandrov",
+    type: "suit"
+}, {
+    source: "/wiki/Aleksandr_Danilovich_Aleksandrov",
+    target: "/wiki/Yuri_Burago",
+    type: "suit"
+}, {
+    source: "/wiki/Yuri_Burago",
+    target: "/wiki/Grigori_Perelman",
+    type: "suit"
+}, {
+    source: "/wiki/Victor_Zalgaller",
+    target: "/wiki/Yuri_Burago",
+    type: "suit"
+}, {
+    source: "/wiki/Aleksandr_Danilovich_Aleksandrov",
+    target: "/wiki/Vladik_Kreinovich",
+    type: "suit"
+}, {
+    source: "/wiki/Aleksandr_Danilovich_Aleksandrov",
+    target: "/wiki/Aleksei_Pogorelov",
+    type: "suit"
+}, {
+    source: "/wiki/Boris_Delaunay",
+    target: "/wiki/Igor_Shafarevich",
+    type: "suit"
+}, {
+    source: "/wiki/Igor_Shafarevich",
+    target: "/wiki/Igor_Dolgachev",
+    type: "suit"
+}, {
+    source: "/wiki/Igor_Shafarevich",
+    target: "/wiki/Evgeny_Golod",
+    type: "suit"
+}, {
+    source: "/wiki/Igor_Shafarevich",
+    target: "/wiki/Alexei_Kostrikin",
+    type: "suit"
+}, {
+    source: "/wiki/Igor_Shafarevich",
+    target: "/wiki/Yuri_Manin",
+    type: "suit"
+}, {
+    source: "/wiki/Yuri_Manin",
+    target: "/wiki/Alexander_Beilinson",
+    type: "suit"
+}, {
+    source: "/wiki/Yuri_Manin",
+    target: "/wiki/Vladimir_Drinfeld",
+    type: "suit"
+}, {
+    source: "/wiki/Yuri_Manin",
+    target: "/wiki/Victor_Kolyvagin",
+    type: "suit"
+}, {
+    source: "/wiki/Yuri_Manin",
+    target: "/wiki/Vyacheslav_Shokurov",
+    type: "suit"
+}, {
+    source: "/wiki/Yuri_Manin",
+    target: "/wiki/Alexei_Skorobogatov",
+    type: "suit"
+}, {
+    source: "/wiki/Igor_Shafarevich",
+    target: "/wiki/Boris_Moishezon",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitry_Grave",
+    target: "/wiki/Boris_Delaunay",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitry_Grave",
+    target: "/wiki/Naum_Akhiezer",
+    type: "suit"
+}, {
+    source: "/wiki/Naum_Akhiezer",
+    target: "/wiki/Boris_Levitan",
+    type: "suit"
+}, {
+    source: "/wiki/Boris_Levitan",
+    target: "/wiki/Grigory_Isaakovich_Barenblatt",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Kolmogorov",
+    target: "/wiki/Grigory_Isaakovich_Barenblatt",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Kolmogorov",
+    target: "/wiki/Mikhail_Anisimov",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Kolmogorov",
+    target: "/wiki/Vladimir_Arnold",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Alexander_Givental",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Victor_Goryunov",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Sabir_Gusein-Zade",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Emil_Horozov",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Boris_Khesin",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Askold_Khovanskii",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Nikolay_Nekhoroshev",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Boris_Shapiro_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Alexander_Varchenko",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Victor_Anatolyevich_Vassiliev",
+    type: "suit"
+}, {
+    source: "/wiki/Vladimir_Arnold",
+    target: "/wiki/Vladimir_Zakalyukin",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Kolmogorov",
+    target: "/wiki/Sergei_N._Artemov",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Nikolayevich_Kolmogorov",
+    target: "/wiki/Sergei_N._Artemov",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Nikolayevich_Kolmogorov",
+    target: "/wiki/Grigory_Barenblatt",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Nikolayevich_Kolmogorov",
+    target: "/wiki/Roland_Dobrushin",
+    type: "suit"
+}, {
+    source: "/wiki/Roland_Dobrushin",
+    target: "/wiki/Michel_Deza",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Nikolayevich_Kolmogorov",
+    target: "/wiki/Eugene_Dynkin",
+    type: "suit"
+}, {
+    source: "/wiki/Eugene_Dynkin",
+    target: "/wiki/Nicolai_V._Krylov",
+    type: "suit"
+}, {
+    source: "/wiki/Eugene_Dynkin",
+    target: "/wiki/Igor_Girsanov",
+    type: "suit"
+}, {
+    source: "/wiki/Eugene_Dynkin",
+    target: "/wiki/Fridrikh_Karpelevich",
+    type: "suit"
+}, {
+    source: "/wiki/Eugene_Dynkin",
+    target: "/wiki/Anatoliy_Skorokhod",
+    type: "suit"
+}, {
+    source: "/wiki/Eugene_Dynkin",
+    target: "/wiki/Ernest_Vinberg",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Nikolayevich_Kolmogorov",
+    target: "/wiki/Israil_Gelfand",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Georgy_Adelson-Velsky",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Felix_Berezin",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Joseph_Bernstein",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Victor_Ginzburg",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Alexander_Goncharov",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Alexandre_Kirillov",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Georgiy_Shilov",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Endre_Szemer%C3%A9di",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Andrei_Zelevinsky",
+    type: "suit"
+}, {
+    source: "/wiki/Israil_Gelfand",
+    target: "/wiki/Vitalii_Ditkin",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Nikolayevich_Kolmogorov",
+    target: "/wiki/Boris_Vladimirovich_Gnedenko",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Nikolayevich_Kolmogorov",
+    target: "/wiki/Leonid_Levin",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_R._Meyer",
+    target: "/wiki/Leonid_Levin",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_R._Meyer",
+    target: "/wiki/Nancy_Lynch",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_R._Meyer",
+    target: "/wiki/Jeanne_Ferrante",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_R._Meyer",
+    target: "/wiki/Charles_Rackoff",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_Rackoff",
+    target: "/wiki/Richard_Cleve",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_R._Meyer",
+    target: "/wiki/Larry_Stockmeyer",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_R._Meyer",
+    target: "/wiki/David_Harel",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_R._Meyer",
+    target: "/wiki/Joseph_Halpern",
+    type: "suit"
+}, {
+    source: "/wiki/Joseph_Halpern",
+    target: "/wiki/Nir_Friedman",
+    type: "suit"
+}, {
+    source: "/wiki/Joseph_Halpern",
+    target: "/wiki/Daphne_Koller",
+    type: "suit"
+}, {
+    source: "/wiki/Joseph_Halpern",
+    target: "/wiki/Yoram_Moses",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_R._Meyer",
+    target: "/wiki/John_C._Mitchell",
+    type: "suit"
+}, {
+    source: "/wiki/John_C._Mitchell",
+    target: "/wiki/Kathleen_Fisher",
+    type: "suit"
+}, {
+    source: "/wiki/Patrick_C._Fischer",
+    target: "/wiki/Albert_R._Meyer",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Nikolayevich_Kolmogorov",
+    target: "/wiki/Per_Martin-L%C3%B6f",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_N._Kolmogorov",
+    target: "/wiki/Per_Martin-L%C3%B6f",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_N._Kolmogorov",
+    target: "/wiki/Sergey_Nikolsky",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Kolmogorov",
+    target: "/wiki/Sergey_Nikolsky",
+    type: "suit"
+}, {
+    source: "/wiki/Andrei_Kolmogorov",
+    target: "/wiki/Yuri_Vasilevich_Prokhorov",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Nikolaevich_Kolmogorov",
+    target: "/wiki/Yuri_Vasilevich_Prokhorov",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Nikolaevich_Kolmogorov",
+    target: "/wiki/Yakov_Sinai",
+    type: "suit"
+}, {
+    source: "/wiki/Yakov_Sinai",
+    target: "/wiki/Leonid_Bunimovich",
+    type: "suit"
+}, {
+    source: "/wiki/Yakov_Sinai",
+    target: "/wiki/Dmitry_Dolgopyat",
+    type: "suit"
+}, {
+    source: "/wiki/Yakov_Sinai",
+    target: "/wiki/Svetlana_Jitomirskaya",
+    type: "suit"
+}, {
+    source: "/wiki/Yakov_Sinai",
+    target: "/wiki/Anatole_Katok",
+    type: "suit"
+}, {
+    source: "/wiki/Yakov_Sinai",
+    target: "/wiki/Grigory_Margulis",
+    type: "suit"
+}, {
+    source: "/wiki/Yakov_Sinai",
+    target: "/wiki/Leonid_Polterovich",
+    type: "suit"
+}, {
+    source: "/wiki/Yakov_Sinai",
+    target: "/wiki/Marina_Ratner",
+    type: "suit"
+}, {
+    source: "/wiki/Yakov_Sinai",
+    target: "/wiki/Corinna_Ulcigrai",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Nikolaevich_Kolmogorov",
+    target: "/wiki/Albert_Shiryaev",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_Shiryaev",
+    target: "/wiki/Dmitry_Kramkov",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_Shiryaev",
+    target: "/wiki/Ernesto_Mordecki",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_Shiryaev",
+    target: "/wiki/Alexander_Novikov_(professor)",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Nikolaevich_Kolmogorov",
+    target: "/wiki/Anatoli_Georgievich_Vitushkin",
+    type: "suit"
+}, {
+    source: "/wiki/Anatoli_Georgievich_Vitushkin",
+    target: "/wiki/Victor_Pan",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Nikolaevich_Kolmogorov",
+    target: "/wiki/Vladimir_Andreyevich_Uspensky",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Nikolaevich_Kolmogorov",
+    target: "/wiki/Andrei_Monin",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Nikolaevich_Kolmogorov",
+    target: "/wiki/Alexander_Obukhov",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Nikolaevich_Kolmogorov",
+    target: "/wiki/Akiva_Yaglom",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Andrey_Nikolaevich_Kolmogorov",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Pavel_Aleksandrov",
+    type: "suit"
+}, {
+    source: "/wiki/Pavel_Aleksandrov",
+    target: "/wiki/Aleksandr_Gennadievich_Kurosh",
+    type: "suit"
+}, {
+    source: "/wiki/Pavel_Aleksandrov",
+    target: "/wiki/Lev_Semenovich_Pontryagin",
+    type: "suit"
+}, {
+    source: "/wiki/Lev_Semenovich_Pontryagin",
+    target: "/wiki/Dmitri_Anosov",
+    type: "suit"
+}, {
+    source: "/wiki/Lev_Semenovich_Pontryagin",
+    target: "/wiki/Vladimir_Boltyansky",
+    type: "suit"
+}, {
+    source: "/wiki/Lev_Semenovich_Pontryagin",
+    target: "/wiki/Revaz_Gamkrelidze",
+    type: "suit"
+}, {
+    source: "/wiki/Lev_Semenovich_Pontryagin",
+    target: "/wiki/Mikhail_Postnikov",
+    type: "suit"
+}, {
+    source: "/wiki/Lev_Semenovich_Pontryagin",
+    target: "/wiki/Mikhail_Zelikin",
+    type: "suit"
+}, {
+    source: "/wiki/Pavel_Alexandrov",
+    target: "/wiki/Lev_Semenovich_Pontryagin",
+    type: "suit"
+}, {
+    source: "/wiki/Pavel_Alexandrov",
+    target: "/wiki/Andrey_Nikolayevich_Tychonoff",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitri_Egorov",
+    target: "/wiki/Pavel_Alexandrov",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitri_Egorov",
+    target: "/wiki/Pavel_Sergeevich_Alexandrov",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitri_Egorov",
+    target: "/wiki/Ivan_Petrovsky",
+    type: "suit"
+}, {
+    source: "/wiki/Ivan_Petrovsky",
+    target: "/wiki/Olga_Aleksandrovna_Ladyzhenskaya",
+    type: "suit"
+}, {
+    source: "/wiki/Olga_Aleksandrovna_Ladyzhenskaya",
+    target: "/wiki/Nina_Uralt%27seva",
+    type: "suit"
+}, {
+    source: "/wiki/Olga_Aleksandrovna_Ladyzhenskaya",
+    target: "/wiki/Ludwig_Faddeev",
+    type: "suit"
+}, {
+    source: "/wiki/Olga_Aleksandrovna_Ladyzhenskaya",
+    target: "/wiki/Vladimir_Buslaev",
+    type: "suit"
+}, {
+    source: "/wiki/Sergei_Sobolev",
+    target: "/wiki/Olga_Aleksandrovna_Ladyzhenskaya",
+    type: "suit"
+}, {
+    source: "/wiki/Ivan_Petrovsky",
+    target: "/wiki/Yevgeniy_Landis",
+    type: "suit"
+}, {
+    source: "/wiki/Ivan_Petrovsky",
+    target: "/wiki/Olga_Arsenievna_Oleinik",
+    type: "suit"
+}, {
+    source: "/wiki/Ivan_Petrovsky",
+    target: "/wiki/Sergei_K._Godunov",
+    type: "suit"
+}, {
+    source: "/wiki/Ivan_Petrovsky",
+    target: "/wiki/Aleksei_Fedorovich_Filippov",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitri_Egorov",
+    target: "/wiki/Ivan_Privalov",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitri_Egorov",
+    target: "/wiki/Adolf_Yushkevich",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitri_Egorov",
+    target: "/wiki/Dmitrii_Menshov",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitrii_Menshov",
+    target: "/wiki/Alexander_Brudno",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitrii_Menshov",
+    target: "/wiki/Sergey_Stechkin",
+    type: "suit"
+}, {
+    source: "/wiki/Sergey_Stechkin",
+    target: "/wiki/Sergei_Konyagin",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitrii_Evgenevich_Menshov",
+    target: "/wiki/Sergey_Stechkin",
+    type: "suit"
+}, {
+    source: "/wiki/Sergei_Natanovich_Bernstein",
+    target: "/wiki/Sergey_Stechkin",
+    type: "suit"
+}, {
+    source: "/wiki/Sergei_Natanovich_Bernstein",
+    target: "/wiki/Yakov_Geronimus",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Sergei_Natanovich_Bernstein",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Paul_Dubreil",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Dubreil",
+    target: "/wiki/Dov_Tamari_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Jacques_Hadamard",
+    type: "suit"
+}, {
+    source: "/wiki/Jacques_Hadamard",
+    target: "/wiki/Maurice_Ren%C3%A9_Fr%C3%A9chet",
+    type: "suit"
+}, {
+    source: "/wiki/Maurice_Ren%C3%A9_Fr%C3%A9chet",
+    target: "/wiki/Nachman_Aronszajn",
+    type: "suit"
+}, {
+    source: "/wiki/Maurice_Ren%C3%A9_Fr%C3%A9chet",
+    target: "/wiki/Robert_Fortet",
+    type: "suit"
+}, {
+    source: "/wiki/Maurice_Ren%C3%A9_Fr%C3%A9chet",
+    target: "/wiki/%C4%90uro_Kurepa",
+    type: "suit"
+}, {
+    source: "/wiki/Maurice_Ren%C3%A9_Fr%C3%A9chet",
+    target: "/wiki/Ky_Fan",
+    type: "suit"
+}, {
+    source: "/wiki/Maurice_Ren%C3%A9_Fr%C3%A9chet",
+    target: "/wiki/Antonio_Monteiro_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Jacques_Hadamard",
+    target: "/wiki/Marc_Krasner",
+    type: "suit"
+}, {
+    source: "/wiki/Jacques_Hadamard",
+    target: "/wiki/Paul_L%C3%A9vy_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_L%C3%A9vy_(mathematician)",
+    target: "/wiki/Wolfgang_Doeblin",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_L%C3%A9vy_(mathematician)",
+    target: "/wiki/Michel_Lo%C3%A8ve",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_L%C3%A9vy_(mathematician)",
+    target: "/wiki/Beno%C3%AEt_Mandelbrot",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_L%C3%A9vy_(mathematician)",
+    target: "/wiki/Georges_Matheron",
+    type: "suit"
+}, {
+    source: "/wiki/Vito_Volterra",
+    target: "/wiki/Paul_L%C3%A9vy_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Betti",
+    target: "/wiki/Vito_Volterra",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Betti",
+    target: "/wiki/Cesare_Arzel%C3%A0",
+    type: "suit"
+}, {
+    source: "/wiki/Cesare_Arzel%C3%A0",
+    target: "/wiki/Leonida_Tonelli",
+    type: "suit"
+}, {
+    source: "/wiki/Leonida_Tonelli",
+    target: "/wiki/Lamberto_Cesari",
+    type: "suit"
+}, {
+    source: "/wiki/Leonida_Tonelli",
+    target: "/wiki/Guido_Stampacchia",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Betti",
+    target: "/wiki/Luigi_Bianchi",
+    type: "suit"
+}, {
+    source: "/wiki/Luigi_Bianchi",
+    target: "/wiki/Luigi_Fantappi%C3%A8",
+    type: "suit"
+}, {
+    source: "/wiki/Luigi_Bianchi",
+    target: "/wiki/Guido_Fubini",
+    type: "suit"
+}, {
+    source: "/wiki/Ulisse_Dini",
+    target: "/wiki/Guido_Fubini",
+    type: "suit"
+}, {
+    source: "/wiki/Luigi_Bianchi",
+    target: "/wiki/Mauro_Picone",
+    type: "suit"
+}, {
+    source: "/wiki/Mauro_Picone",
+    target: "/wiki/Mauro_Picone#Teaching_activity",
+    type: "suit"
+}, {
+    source: "/wiki/Luigi_Bianchi",
+    target: "/wiki/Giovanni_Sansone",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Betti",
+    target: "/wiki/Federigo_Enriques",
+    type: "suit"
+}, {
+    source: "/wiki/Guido_Castelnuovo",
+    target: "/wiki/Federigo_Enriques",
+    type: "suit"
+}, {
+    source: "/wiki/Guido_Castelnuovo",
+    target: "/wiki/Enrico_Bompiani",
+    type: "suit"
+}, {
+    source: "/wiki/Guido_Castelnuovo",
+    target: "/wiki/Gheorghe_Mihoc",
+    type: "suit"
+}, {
+    source: "/wiki/Guido_Castelnuovo",
+    target: "/wiki/Oscar_Zariski",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/S._S._Abhyankar",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Michael_Artin",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_Artin",
+    target: "/wiki/Eric_Friedlander",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_Artin",
+    target: "/wiki/David_Harbater",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_Artin",
+    target: "/wiki/Zinovy_Reichstein",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_Artin",
+    target: "/wiki/Amnon_Yekutieli",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Iacopo_Barsotti",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Irvin_Cohen",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Daniel_Gorenstein",
+    type: "suit"
+}, {
+    source: "/wiki/Daniel_Gorenstein",
+    target: "/wiki/Michael_O%27Nan",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Robin_Hartshorne",
+    type: "suit"
+}, {
+    source: "/wiki/Robin_Hartshorne",
+    target: "/wiki/Arthur_Ogus",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coleman_Moore",
+    target: "/wiki/Robin_Hartshorne",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coleman_Moore",
+    target: "/wiki/Paul_Baum_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coleman_Moore",
+    target: "/wiki/William_Browder_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/William_Browder_(mathematician)",
+    target: "/wiki/Alejandro_Adem",
+    type: "suit"
+}, {
+    source: "/wiki/William_Browder_(mathematician)",
+    target: "/wiki/Sylvain_Cappell",
+    type: "suit"
+}, {
+    source: "/wiki/William_Browder_(mathematician)",
+    target: "/wiki/Michael_Freedman",
+    type: "suit"
+}, {
+    source: "/wiki/William_Browder_(mathematician)",
+    target: "/wiki/Louis_Kauffman",
+    type: "suit"
+}, {
+    source: "/wiki/William_Browder_(mathematician)",
+    target: "/wiki/George_Lusztig",
+    type: "suit"
+}, {
+    source: "/wiki/William_Browder_(mathematician)",
+    target: "/wiki/Frank_Quinn_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/William_Browder_(mathematician)",
+    target: "/wiki/Dennis_Sullivan",
+    type: "suit"
+}, {
+    source: "/wiki/William_Browder_(mathematician)",
+    target: "/wiki/John_Wagoner",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coleman_Moore",
+    target: "/wiki/J._Peter_May",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coleman_Moore",
+    target: "/wiki/Haynes_Miller",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coleman_Moore",
+    target: "/wiki/Michael_Rosen_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coleman_Moore",
+    target: "/wiki/Jim_Stasheff",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coleman_Moore",
+    target: "/wiki/Richard_Swan",
+    type: "suit"
+}, {
+    source: "/wiki/John_Coleman_Moore",
+    target: "/wiki/Robert_Wayne_Thomason",
+    type: "suit"
+}, {
+    source: "/wiki/George_W._Whitehead",
+    target: "/wiki/John_Coleman_Moore",
+    type: "suit"
+}, {
+    source: "/wiki/George_W._Whitehead",
+    target: "/wiki/Robert_Aumann",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Aumann",
+    target: "/wiki/David_Schmeidler",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Aumann",
+    target: "/wiki/Sergiu_Hart",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Aumann",
+    target: "/wiki/Abraham_Neyman",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Aumann",
+    target: "/wiki/Yair_Tauman",
+    type: "suit"
+}, {
+    source: "/wiki/George_Whitehead,_Jr.",
+    target: "/wiki/Robert_Aumann",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_Steenrod",
+    target: "/wiki/George_Whitehead,_Jr.",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_Steenrod",
+    target: "/wiki/Peter_J._Freyd",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_Steenrod",
+    target: "/wiki/Jerome_Levine",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_Steenrod",
+    target: "/wiki/William_S._Massey",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_Steenrod",
+    target: "/wiki/Edwin_Spanier",
+    type: "suit"
+}, {
+    source: "/wiki/Edwin_Spanier",
+    target: "/wiki/Morris_Hirsch",
+    type: "suit"
+}, {
+    source: "/wiki/Morris_Hirsch",
+    target: "/wiki/William_Goldman_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Morris_Hirsch",
+    target: "/wiki/William_Thurston",
+    type: "suit"
+}, {
+    source: "/wiki/William_Thurston",
+    target: "/wiki/Richard_Canary",
+    type: "suit"
+}, {
+    source: "/wiki/William_Thurston",
+    target: "/wiki/Benson_Farb",
+    type: "suit"
+}, {
+    source: "/wiki/William_Thurston",
+    target: "/wiki/David_Gabai",
+    type: "suit"
+}, {
+    source: "/wiki/William_Thurston",
+    target: "/wiki/Steven_Kerckhoff",
+    type: "suit"
+}, {
+    source: "/wiki/William_Thurston",
+    target: "/wiki/Yair_Minsky",
+    type: "suit"
+}, {
+    source: "/wiki/William_Thurston",
+    target: "/wiki/Igor_Rivin",
+    type: "suit"
+}, {
+    source: "/wiki/William_Thurston",
+    target: "/wiki/Oded_Schramm",
+    type: "suit"
+}, {
+    source: "/wiki/William_Thurston",
+    target: "/wiki/Richard_Schwartz",
+    type: "suit"
+}, {
+    source: "/wiki/William_Thurston",
+    target: "/wiki/Danny_Calegari",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/Morris_Hirsch",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/Rufus_Bowen",
+    type: "suit"
+}, {
+    source: "/wiki/Rufus_Bowen",
+    target: "/wiki/Lai-Sang_Young",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/C%C3%A9sar_Camacho",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/Robert_L._Devaney",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/John_Guckenheimer",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/Nancy_Kopell",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/Jacob_Palis",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Palis",
+    target: "/wiki/Artur_Oscar_Lopes",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Palis",
+    target: "/wiki/Ricardo_Ma%C3%B1%C3%A9",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Palis",
+    target: "/wiki/Welington_de_Melo",
+    type: "suit"
+}, {
+    source: "/wiki/Welington_de_Melo",
+    target: "/wiki/Artur_Avila",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Palis",
+    target: "/wiki/Carlos_Gustavo_Moreira",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Palis",
+    target: "/wiki/Enrique_Pujals",
+    type: "suit"
+}, {
+    source: "/wiki/Jacob_Palis",
+    target: "/wiki/Marcelo_Viana",
+    type: "suit"
+}, {
+    source: "/wiki/Marcelo_Viana",
+    target: "/wiki/Carlos_Matheus",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/Themistocles_M._Rassias",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/Siavash_Shahshahani",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Smale",
+    target: "/wiki/Michael_Shub",
+    type: "suit"
+}, {
+    source: "/wiki/Raoul_Bott",
+    target: "/wiki/Stephen_Smale",
+    type: "suit"
+}, {
+    source: "/wiki/Raoul_Bott",
+    target: "/wiki/Edward_B._Curtis",
+    type: "suit"
+}, {
+    source: "/wiki/Raoul_Bott",
+    target: "/wiki/Harold_Edwards_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Raoul_Bott",
+    target: "/wiki/Robert_MacPherson_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_MacPherson_(mathematician)",
+    target: "/wiki/Mark_Goresky",
+    type: "suit"
+}, {
+    source: "/wiki/Raoul_Bott",
+    target: "/wiki/Daniel_Quillen",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Duffin",
+    target: "/wiki/Raoul_Bott",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Duffin",
+    target: "/wiki/Hans_Weinberger",
+    type: "suit"
+}, {
+    source: "/wiki/Edwin_Spanier",
+    target: "/wiki/Elon_Lages_Lima",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Norman_Steenrod",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Edward_Begle",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Richard_Bellman",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Felix_Browder",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Clifford_Dowker",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/George_F._D._Duff",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Ralph_Fox",
+    type: "suit"
+}, {
+    source: "/wiki/Ralph_Fox",
+    target: "/wiki/Harold_W._Kuhn",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_W._Kuhn",
+    target: "/wiki/James_G._MacKinnon",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_W._Kuhn",
+    target: "/wiki/Guillermo_Owen",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_W._Kuhn",
+    target: "/wiki/Richard_Stearns_(computer_scientist)",
+    type: "suit"
+}, {
+    source: "/wiki/Ralph_Fox",
+    target: "/wiki/Barry_Mazur",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Mazur",
+    target: "/wiki/Nigel_Boston",
+    type: "suit"
+}, {
+    source: "/wiki/Nigel_Boston",
+    target: "/wiki/Judy_L._Walker",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Mazur",
+    target: "/wiki/Noam_Elkies",
+    type: "suit"
+}, {
+    source: "/wiki/Benedict_Gross",
+    target: "/wiki/Noam_Elkies",
+    type: "suit"
+}, {
+    source: "/wiki/Benedict_Gross",
+    target: "/wiki/Henri_Darmon",
+    type: "suit"
+}, {
+    source: "/wiki/Benedict_Gross",
+    target: "/wiki/Dipendra_Prasad",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/Benedict_Gross",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/V._Kumar_Murty",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/William_C._Waterhouse",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/Jonathan_Lubin",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/Stephen_Lichtenbaum",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/Kenneth_Alan_Ribet",
+    type: "suit"
+}, {
+    source: "/wiki/Kenneth_Alan_Ribet",
+    target: "/wiki/Bjorn_Poonen",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/Joseph_H._Silverman",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/Dinesh_Thakur_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/Jerrold_Tunnell",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/Carl_Pomerance",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tate",
+    target: "/wiki/George_Bergman",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/John_Tate",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/Nesmith_Ankeny",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/Karel_deLeeuw",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/Bernard_Dwork",
+    type: "suit"
+}, {
+    source: "/wiki/Bernard_Dwork",
+    target: "/wiki/Stefan_Burr",
+    type: "suit"
+}, {
+    source: "/wiki/Bernard_Morris_Dwork",
+    target: "/wiki/Stefan_Burr",
+    type: "suit"
+}, {
+    source: "/wiki/Bernard_Morris_Dwork",
+    target: "/wiki/Nick_Katz",
+    type: "suit"
+}, {
+    source: "/wiki/Nick_Katz",
+    target: "/wiki/William_Messing",
+    type: "suit"
+}, {
+    source: "/wiki/Nick_Katz",
+    target: "/wiki/Neal_Koblitz",
+    type: "suit"
+}, {
+    source: "/wiki/Neal_Koblitz",
+    target: "/wiki/Daqing_Wan",
+    type: "suit"
+}, {
+    source: "/wiki/Nick_Katz",
+    target: "/wiki/Mark_Kisin",
+    type: "suit"
+}, {
+    source: "/wiki/Nick_Katz",
+    target: "/wiki/Chris_Hall_(cryptographer)",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/David_Gilbarg",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/Serge_Lang",
+    type: "suit"
+}, {
+    source: "/wiki/Serge_Lang",
+    target: "/wiki/Minhyong_Kim",
+    type: "suit"
+}, {
+    source: "/wiki/Serge_Lang",
+    target: "/wiki/Stephen_Schanuel",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Schanuel",
+    target: "/wiki/W._Dale_Brownawell",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/O._Timothy_O%27Meara",
+    type: "suit"
+}, {
+    source: "/wiki/O._Timothy_O%27Meara",
+    target: "/wiki/Everett_C._Dade",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/Kollagunta_Gopalaiyer_Ramanathan",
+    type: "suit"
+}, {
+    source: "/wiki/Kollagunta_Gopalaiyer_Ramanathan",
+    target: "/wiki/C._P._Ramanujam",
+    type: "suit"
+}, {
+    source: "/wiki/K._G._Ramanathan",
+    target: "/wiki/C._P._Ramanujam",
+    type: "suit"
+}, {
+    source: "/wiki/K._G._Ramanathan",
+    target: "/wiki/Kanakanahalli_Ramachandra",
+    type: "suit"
+}, {
+    source: "/wiki/Kanakanahalli_Ramachandra",
+    target: "/wiki/T._N._Shorey",
+    type: "suit"
+}, {
+    source: "/wiki/Kanakanahalli_Ramachandra",
+    target: "/wiki/Ramachandran_Balasubramanian",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/Hans_Zassenhaus",
+    type: "suit"
+}, {
+    source: "/wiki/Emil_Artin",
+    target: "/wiki/Max_August_Zorn",
+    type: "suit"
+}, {
+    source: "/wiki/Gustav_Herglotz",
+    target: "/wiki/Emil_Artin",
+    type: "suit"
+}, {
+    source: "/wiki/Hugo_von_Seeliger",
+    target: "/wiki/Gustav_Herglotz",
+    type: "suit"
+}, {
+    source: "/wiki/Hugo_von_Seeliger",
+    target: "/wiki/Julius_Bauschinger",
+    type: "suit"
+}, {
+    source: "/wiki/Hugo_von_Seeliger",
+    target: "/wiki/George_W._Myers",
+    type: "suit"
+}, {
+    source: "/wiki/Hugo_von_Seeliger",
+    target: "/wiki/Karl_Schwarzschild",
+    type: "suit"
+}, {
+    source: "/wiki/Carl_Christian_Bruhns",
+    target: "/wiki/Hugo_von_Seeliger",
+    type: "suit"
+}, {
+    source: "/wiki/Ludwig_Boltzmann",
+    target: "/wiki/Gustav_Herglotz",
+    type: "suit"
+}, {
+    source: "/wiki/Ludwig_Boltzmann",
+    target: "/wiki/Paul_Ehrenfest",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Ehrenfest",
+    target: "/wiki/Johannes_Martinus_Burgers",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Ehrenfest",
+    target: "/wiki/Hendrik_Casimir",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Ehrenfest",
+    target: "/wiki/Dirk_Coster",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Ehrenfest",
+    target: "/wiki/Samuel_Goudsmit",
+    type: "suit"
+}, {
+    source: "/wiki/Samuel_Goudsmit",
+    target: "/wiki/Robert_Bacher",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Bacher",
+    target: "/wiki/Boyce_McDaniel",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Ehrenfest",
+    target: "/wiki/Hendrik_Kramers",
+    type: "suit"
+}, {
+    source: "/wiki/Hendrik_Kramers",
+    target: "/wiki/Dirk_ter_Haar",
+    type: "suit"
+}, {
+    source: "/wiki/Hendrik_Kramers",
+    target: "/wiki/Nico_van_Kampen",
+    type: "suit"
+}, {
+    source: "/wiki/Hendrik_Anthony_Kramers",
+    target: "/wiki/Nico_van_Kampen",
+    type: "suit"
+}, {
+    source: "/wiki/Hendrik_Anthony_Kramers",
+    target: "/wiki/Tjalling_Koopmans",
+    type: "suit"
+}, {
+    source: "/wiki/Tjalling_Koopmans",
+    target: "/wiki/Leonid_Hurwicz",
+    type: "suit"
+}, {
+    source: "/wiki/Hans_Kramers",
+    target: "/wiki/Tjalling_Koopmans",
+    type: "suit"
+}, {
+    source: "/wiki/Niels_Bohr",
+    target: "/wiki/Hans_Kramers",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/Niels_Bohr",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/Charles_Glover_Barkla",
+    type: "suit"
+}, {
+    source: "/wiki/Oliver_Lodge",
+    target: "/wiki/Charles_Glover_Barkla",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/Charles_T._R._Wilson",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_T._R._Wilson",
+    target: "/wiki/Cecil_Frank_Powell",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_Thomson_Rees_Wilson",
+    target: "/wiki/Cecil_Frank_Powell",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Cecil_Frank_Powell",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Nazir_Ahmed_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Norman_Alexander",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Edward_Victor_Appleton",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Victor_Appleton",
+    target: "/wiki/J._A._Ratcliffe",
+    type: "suit"
+}, {
+    source: "/wiki/J._A._Ratcliffe",
+    target: "/wiki/Basil_Briggs",
+    type: "suit"
+}, {
+    source: "/wiki/J._A._Ratcliffe",
+    target: "/wiki/Maurice_Wilkes",
+    type: "suit"
+}, {
+    source: "/wiki/Maurice_Wilkes",
+    target: "/wiki/Michael_Howard_Kay",
+    type: "suit"
+}, {
+    source: "/wiki/Maurice_Wilkes",
+    target: "/wiki/Peter_Wegner",
+    type: "suit"
+}, {
+    source: "/wiki/Peter_Wegner",
+    target: "/wiki/William_Cook_(computer_scientist)",
+    type: "suit"
+}, {
+    source: "/wiki/Maurice_Wilkes",
+    target: "/wiki/David_Wheeler_(computer_scientist)",
+    type: "suit"
+}, {
+    source: "/wiki/David_Wheeler_(computer_scientist)",
+    target: "/wiki/Michael_Burrows",
+    type: "suit"
+}, {
+    source: "/wiki/David_Wheeler_(computer_scientist)",
+    target: "/wiki/Andy_Hopper",
+    type: "suit"
+}, {
+    source: "/wiki/David_Wheeler_(computer_scientist)",
+    target: "/wiki/Mathai_Joseph",
+    type: "suit"
+}, {
+    source: "/wiki/Mathai_Joseph",
+    target: "/wiki/Paritosh_Pandya",
+    type: "suit"
+}, {
+    source: "/wiki/Mathai_Joseph",
+    target: "/wiki/Liu_Zhiming_(computer_scientist)",
+    type: "suit"
+}, {
+    source: "/wiki/David_Wheeler_(computer_scientist)",
+    target: "/wiki/Roger_Needham",
+    type: "suit"
+}, {
+    source: "/wiki/Roger_Needham",
+    target: "/wiki/Ross_J._Anderson_(professor)",
+    type: "suit"
+}, {
+    source: "/wiki/Roger_Needham",
+    target: "/wiki/David_L._Tennenhouse",
+    type: "suit"
+}, {
+    source: "/wiki/Roger_Needham",
+    target: "/wiki/Peter_G._Gyarmati",
+    type: "suit"
+}, {
+    source: "/wiki/David_Wheeler_(computer_scientist)",
+    target: "/wiki/Bjarne_Stroustrup",
+    type: "suit"
+}, {
+    source: "/wiki/J._A._Ratcliffe",
+    target: "/wiki/Ronald_N._Bracewell",
+    type: "suit"
+}, {
+    source: "/wiki/J._A._Ratcliffe",
+    target: "/wiki/Henry_G._Booker",
+    type: "suit"
+}, {
+    source: "/wiki/Henry_G._Booker",
+    target: "/wiki/William_E._Gordon",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Victor_Appleton",
+    target: "/wiki/Charles_Oatley",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_Oatley",
+    target: "/wiki/Haroon_Ahmed",
+    type: "suit"
+}, {
+    source: "/wiki/Wikipedia:Citation_needed",
+    target: "/wiki/Haroon_Ahmed",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_Oatley",
+    target: "/wiki/Alec_Broers",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_Oatley",
+    target: "/wiki/Thomas_Everhart",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_Oatley",
+    target: "/wiki/Colin_Sheppard",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Robert_William_Boyle",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/James_Chadwick",
+    type: "suit"
+}, {
+    source: "/wiki/James_Chadwick",
+    target: "/wiki/%C3%89tienne_Bi%C3%A9ler",
+    type: "suit"
+}, {
+    source: "/wiki/James_Chadwick",
+    target: "/wiki/Charles_Drummond_Ellis",
+    type: "suit"
+}, {
+    source: "/wiki/James_Chadwick",
+    target: "/wiki/Ernest_C._Pollard",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_C._Pollard",
+    target: "/wiki/Thomas_Patrick_Coohill",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_C._Pollard",
+    target: "/wiki/Carl_Woese",
+    type: "suit"
+}, {
+    source: "/wiki/James_Chadwick",
+    target: "/wiki/Maurice_Goldhaber",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Rafi_Muhammad_Chaudhry",
+    type: "suit"
+}, {
+    source: "/wiki/Rafi_Muhammad_Chaudhry",
+    target: "/wiki/Tahir_Hussain_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Tahir_Hussain_(physicist)",
+    target: "/wiki/Ishfaq_Ahmad",
+    type: "suit"
+}, {
+    source: "/wiki/Mark_Oliphant",
+    target: "/wiki/Tahir_Hussain_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Mark_Oliphant",
+    target: "/wiki/Ernest_William_Titterton",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Norman_Feather",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Alexander_MacAulay",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Cecil_Powell",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Henry_DeWolf_Smyth",
+    type: "suit"
+}, {
+    source: "/wiki/Henry_DeWolf_Smyth",
+    target: "/wiki/Kenneth_Bainbridge",
+    type: "suit"
+}, {
+    source: "/wiki/Kenneth_Bainbridge",
+    target: "/wiki/Edward_Mills_Purcell",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Mills_Purcell",
+    target: "/wiki/George_Pake",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Mills_Purcell",
+    target: "/wiki/Charles_Pence_Slichter",
+    type: "suit"
+}, {
+    source: "/wiki/John_Van_Vleck",
+    target: "/wiki/Edward_Mills_Purcell",
+    type: "suit"
+}, {
+    source: "/wiki/John_Van_Vleck",
+    target: "/wiki/Robert_Serber",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Serber",
+    target: "/wiki/Leon_Cooper",
+    type: "suit"
+}, {
+    source: "/wiki/John_Hasbrouck_Van_Vleck",
+    target: "/wiki/Robert_Serber",
+    type: "suit"
+}, {
+    source: "/wiki/John_Hasbrouck_Van_Vleck",
+    target: "/wiki/P.W._Anderson",
+    type: "suit"
+}, {
+    source: "/wiki/John_Hasbrouck_van_Vleck",
+    target: "/wiki/P.W._Anderson",
+    type: "suit"
+}, {
+    source: "/wiki/John_Hasbrouck_van_Vleck",
+    target: "/wiki/Thomas_Kuhn",
+    type: "suit"
+}, {
+    source: "/wiki/John_Hasbrouck_van_Vleck",
+    target: "/wiki/John_Atanasoff",
+    type: "suit"
+}, {
+    source: "/wiki/Edwin_C._Kemble",
+    target: "/wiki/John_Hasbrouck_van_Vleck",
+    type: "suit"
+}, {
+    source: "/wiki/Karl_Taylor_Compton",
+    target: "/wiki/Henry_DeWolf_Smyth",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Ernest_Walton",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Evan_James_Williams",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/C._E._Wynn-Williams",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_Rutherford",
+    target: "/wiki/Yulii_Borisovich_Khariton",
+    type: "suit"
+}, {
+    source: "/wiki/Abram_Ioffe",
+    target: "/wiki/Yulii_Borisovich_Khariton",
+    type: "suit"
+}, {
+    source: "/wiki/Abram_Ioffe",
+    target: "/wiki/Nikolay_Semyonov",
+    type: "suit"
+}, {
+    source: "/wiki/Wilhelm_Roentgen",
+    target: "/wiki/Abram_Ioffe",
+    type: "suit"
+}, {
+    source: "/wiki/Wilhelm_Roentgen",
+    target: "/wiki/Herman_March",
+    type: "suit"
+}, {
+    source: "/wiki/Wilhelm_Roentgen",
+    target: "/wiki/Ernst_Wagner",
+    type: "suit"
+}, {
+    source: "/wiki/Ernst_Wagner",
+    target: "/wiki/Helmuth_Kulenkampff",
+    type: "suit"
+}, {
+    source: "/wiki/Helmuth_Kulenkampff",
+    target: "/wiki/Elmar_Zeitler",
+    type: "suit"
+}, {
+    source: "/wiki/Wilhelm_R%C3%B6ntgen",
+    target: "/wiki/Ernst_Wagner",
+    type: "suit"
+}, {
+    source: "/wiki/Wilhelm_R%C3%B6ntgen",
+    target: "/wiki/Rudolf_Ladenburg",
+    type: "suit"
+}, {
+    source: "/wiki/August_Kundt",
+    target: "/wiki/Wilhelm_R%C3%B6ntgen",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Bickerton",
+    target: "/wiki/Ernest_Rutherford",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Bickerton",
+    target: "/wiki/Ettie_Rout",
+    type: "suit"
+}, {
+    source: "/wiki/Alexander_Bickerton",
+    target: "/wiki/Charles_Gifford_(astronomer)",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Frankland",
+    target: "/wiki/Alexander_Bickerton",
+    type: "suit"
+}, {
+    source: "/wiki/John_Tyndall",
+    target: "/wiki/Alexander_Bickerton",
+    type: "suit"
+}, {
+    source: "/wiki/Thomas_Huxley",
+    target: "/wiki/Alexander_Bickerton",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/Francis_William_Aston",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/John_Sealy_Edward_Townsend",
+    type: "suit"
+}, {
+    source: "/wiki/John_Sealy_Edward_Townsend",
+    target: "/wiki/Victor_Albert_Bailey",
+    type: "suit"
+}, {
+    source: "/wiki/Victor_Albert_Bailey",
+    target: "/wiki/Ronald_Ernest_Aitchison",
+    type: "suit"
+}, {
+    source: "/wiki/Ronald_Ernest_Aitchison",
+    target: "/wiki/Peter_Harold_Cole",
+    type: "suit"
+}, {
+    source: "/wiki/Peter_Harold_Cole",
+    target: "/wiki/Kamran_Eshraghian",
+    type: "suit"
+}, {
+    source: "/wiki/Kamran_Eshraghian",
+    target: "/wiki/Derek_Abbott",
+    type: "suit"
+}, {
+    source: "/wiki/Derek_Abbott",
+    target: "/wiki/Mark_D._McDonnell",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_Brown_(physicist)",
+    target: "/wiki/Derek_Abbott",
+    type: "suit"
+}, {
+    source: "/wiki/Bruce_R._Davis",
+    target: "/wiki/Derek_Abbott",
+    type: "suit"
+}, {
+    source: "/wiki/John_Sealy_Edward_Townsend",
+    target: "/wiki/Henry_Brose",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/J._Robert_Oppenheimer",
+    type: "suit"
+}, {
+    source: "/wiki/J._Robert_Oppenheimer",
+    target: "/wiki/Samuel_W._Alderson",
+    type: "suit"
+}, {
+    source: "/wiki/J._Robert_Oppenheimer",
+    target: "/wiki/David_Bohm",
+    type: "suit"
+}, {
+    source: "/wiki/David_Bohm",
+    target: "/wiki/Yakir_Aharonov",
+    type: "suit"
+}, {
+    source: "/wiki/Yakir_Aharonov",
+    target: "/wiki/David_Albert",
+    type: "suit"
+}, {
+    source: "/wiki/Yakir_Aharonov",
+    target: "/wiki/Avshalom_Elitzur",
+    type: "suit"
+}, {
+    source: "/wiki/Yakir_Aharonov",
+    target: "/wiki/Lev_Vaidman",
+    type: "suit"
+}, {
+    source: "/wiki/David_Bohm",
+    target: "/wiki/David_Pines",
+    type: "suit"
+}, {
+    source: "/wiki/David_Bohm",
+    target: "/wiki/Jeffrey_Bub",
+    type: "suit"
+}, {
+    source: "/wiki/David_Bohm",
+    target: "/wiki/Henri_Bortoft",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/David_Bohm",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/Robert_Christy",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/Sidney_Dancoff",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Dancoff",
+    target: "/wiki/Sidney_Drell",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Drell",
+    target: "/wiki/Roscoe_Giles",
+    type: "suit"
+}, {
+    source: "/wiki/Roscoe_Giles",
+    target: "/wiki/Lawrence_M._Krauss",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Drell",
+    target: "/wiki/Heinz_Pagels",
+    type: "suit"
+}, {
+    source: "/wiki/Heinz_Pagels",
+    target: "/wiki/Seth_Lloyd",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/Stan_Frankel",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/Willis_Eugene_Lamb",
+    type: "suit"
+}, {
+    source: "/wiki/Willis_Eugene_Lamb",
+    target: "/wiki/Theodore_Maiman",
+    type: "suit"
+}, {
+    source: "/wiki/Willis_Lamb",
+    target: "/wiki/Theodore_Maiman",
+    type: "suit"
+}, {
+    source: "/wiki/Willis_Lamb",
+    target: "/wiki/Marlan_Scully",
+    type: "suit"
+}, {
+    source: "/wiki/Marlan_Scully",
+    target: "/wiki/Julio_Gea-Banacloche",
+    type: "suit"
+}, {
+    source: "/wiki/Marlan_O._Scully",
+    target: "/wiki/Julio_Gea-Banacloche",
+    type: "suit"
+}, {
+    source: "/wiki/Marlan_O._Scully",
+    target: "/wiki/Patrick_A._Lee",
+    type: "suit"
+}, {
+    source: "/wiki/Patrick_A._Lee",
+    target: "/wiki/Charles_L._Kane",
+    type: "suit"
+}, {
+    source: "/wiki/Marlan_O._Scully",
+    target: "/wiki/Mikhail_Lukin",
+    type: "suit"
+}, {
+    source: "/wiki/Marlan_O._Scully",
+    target: "/wiki/Wolfgang_P._Schleich",
+    type: "suit"
+}, {
+    source: "/wiki/Marlan_O._Scully",
+    target: "/wiki/Eric_Van_Stryland",
+    type: "suit"
+}, {
+    source: "/wiki/Willis_Lamb",
+    target: "/wiki/Bal%C3%A1zs_L%C3%A1szl%C3%B3_Gy%C5%91rffy",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/Harold_Lewis",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/Philip_Morrison",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/Melba_Phillips",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/Hartland_Snyder",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Oppenheimer",
+    target: "/wiki/George_Volkoff",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Robert_Oppenheimer",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Victor_Frederick_Weisskopf",
+    type: "suit"
+}, {
+    source: "/wiki/Victor_Frederick_Weisskopf",
+    target: "/wiki/Kerson_Huang",
+    type: "suit"
+}, {
+    source: "/wiki/Victor_Frederick_Weisskopf",
+    target: "/wiki/J._David_Jackson",
+    type: "suit"
+}, {
+    source: "/wiki/J._David_Jackson",
+    target: "/wiki/Gordon_L._Kane",
+    type: "suit"
+}, {
+    source: "/wiki/John_David_Jackson_(physicist)",
+    target: "/wiki/Gordon_L._Kane",
+    type: "suit"
+}, {
+    source: "/wiki/John_David_Jackson_(physicist)",
+    target: "/wiki/Chris_Quigg",
+    type: "suit"
+}, {
+    source: "/wiki/Victor_Frederick_Weisskopf",
+    target: "/wiki/Murray_Gell-Mann",
+    type: "suit"
+}, {
+    source: "/wiki/Murray_Gell-Mann",
+    target: "/wiki/Kenneth_G._Wilson",
+    type: "suit"
+}, {
+    source: "/wiki/Kenneth_G._Wilson",
+    target: "/wiki/H._R._Krishnamurthy",
+    type: "suit"
+}, {
+    source: "/wiki/Kenneth_G._Wilson",
+    target: "/wiki/Roman_Jackiw",
+    type: "suit"
+}, {
+    source: "/wiki/Kenneth_G._Wilson",
+    target: "/wiki/Michael_Peskin",
+    type: "suit"
+}, {
+    source: "/wiki/Kenneth_G._Wilson",
+    target: "/wiki/Serge_Rudaz",
+    type: "suit"
+}, {
+    source: "/wiki/Kenneth_G._Wilson",
+    target: "/wiki/Paul_Ginsparg",
+    type: "suit"
+}, {
+    source: "/wiki/Kenneth_G._Wilson",
+    target: "/wiki/Steven_R._White",
+    type: "suit"
+}, {
+    source: "/wiki/Murray_Gell-Mann",
+    target: "/wiki/Sidney_Coleman",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/Ian_Affleck",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/Jacques_Distler",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/David_Griffiths_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/Jeffrey_Mandula",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/Stephen_Parke",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/Leonard_Parker",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/David_Politzer",
+    type: "suit"
+}, {
+    source: "/wiki/David_Politzer",
+    target: "/wiki/Stephen_Wolfram",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/Lee_Smolin",
+    type: "suit"
+}, {
+    source: "/wiki/Stanley_Deser",
+    target: "/wiki/Lee_Smolin",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Seymour_Schwinger",
+    target: "/wiki/Stanley_Deser",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Seymour_Schwinger",
+    target: "/wiki/Roy_Glauber",
+    type: "suit"
+}, {
+    source: "/wiki/Roy_Glauber",
+    target: "/wiki/Leo_Kadanoff",
+    type: "suit"
+}, {
+    source: "/wiki/Leo_Kadanoff",
+    target: "/wiki/Abdullah_Sadiq",
+    type: "suit"
+}, {
+    source: "/wiki/Leo_Kadanoff",
+    target: "/wiki/Chao_Tang",
+    type: "suit"
+}, {
+    source: "/wiki/Leo_Kadanoff",
+    target: "/wiki/Marcelo_Osvaldo_Magnasco",
+    type: "suit"
+}, {
+    source: "/wiki/Oreste_Piro",
+    target: "/wiki/Marcelo_Osvaldo_Magnasco",
+    type: "suit"
+}, {
+    source: "/wiki/Leo_P._Kadanoff",
+    target: "/wiki/Oreste_Piro",
+    type: "suit"
+}, {
+    source: "/wiki/Leo_P._Kadanoff",
+    target: "/wiki/William_A._Dembski",
+    type: "suit"
+}, {
+    source: "/wiki/Leo_P._Kadanoff",
+    target: "/wiki/Scott_Shenker",
+    type: "suit"
+}, {
+    source: "/wiki/Mitchell_J._Feigenbaum",
+    target: "/wiki/Marcelo_Osvaldo_Magnasco",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_J._Libchaber",
+    target: "/wiki/Marcelo_Osvaldo_Magnasco",
+    type: "suit"
+}, {
+    source: "/wiki/Roy_Glauber",
+    target: "/wiki/Daniel_Kleitman",
+    type: "suit"
+}, {
+    source: "/wiki/Roy_Glauber",
+    target: "/wiki/Daniel_Frank_Walls",
+    type: "suit"
+}, {
+    source: "/wiki/Daniel_Frank_Walls",
+    target: "/wiki/Gerard_J._Milburn",
+    type: "suit"
+}, {
+    source: "/wiki/Gerard_J._Milburn",
+    target: "/wiki/Howard_M._Wiseman",
+    type: "suit"
+}, {
+    source: "/wiki/Daniel_Frank_Walls",
+    target: "/wiki/Monika_Ritsch-Marte",
+    type: "suit"
+}, {
+    source: "/wiki/Roy_J._Glauber",
+    target: "/wiki/Daniel_Frank_Walls",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Roy_J._Glauber",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Ben_R._Mottelson",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Sheldon_Lee_Glashow",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Walter_Kohn",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Bryce_DeWitt",
+    type: "suit"
+}, {
+    source: "/wiki/Bryce_DeWitt",
+    target: "/wiki/Donald_Marolf",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Sam_Edwards_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Sam_Edwards_(physicist)",
+    target: "/wiki/Elliott_H._Lieb",
+    type: "suit"
+}, {
+    source: "/wiki/Samuel_Frederick_Edwards",
+    target: "/wiki/Elliott_H._Lieb",
+    type: "suit"
+}, {
+    source: "/wiki/Samuel_Frederick_Edwards",
+    target: "/wiki/Monica_Olvera_de_la_Cruz",
+    type: "suit"
+}, {
+    source: "/wiki/Sir_Samuel_Frederick_Edwards",
+    target: "/wiki/Monica_Olvera_de_la_Cruz",
+    type: "suit"
+}, {
+    source: "/wiki/Sir_Samuel_Frederick_Edwards",
+    target: "/wiki/Michael_Cates",
+    type: "suit"
+}, {
+    source: "/wiki/Gerald_Edward_Brown",
+    target: "/wiki/Elliott_H._Lieb",
+    type: "suit"
+}, {
+    source: "/wiki/Rudolf_Peierls",
+    target: "/wiki/Gerald_Edward_Brown",
+    type: "suit"
+}, {
+    source: "/wiki/Rudolf_Peierls",
+    target: "/wiki/Fred_Hoyle",
+    type: "suit"
+}, {
+    source: "/wiki/Fred_Hoyle",
+    target: "/wiki/John_Moffat_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/John_Moffat_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Michael_Duff_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Ali_Chamseddine",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Robert_Delbourgo",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_Delbourgo",
+    target: "/wiki/Peter_D._Jarvis",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Walter_Gilbert",
+    type: "suit"
+}, {
+    source: "/wiki/Walter_Gilbert",
+    target: "/wiki/George_M._Church",
+    type: "suit"
+}, {
+    source: "/wiki/Walter_Gilbert",
+    target: "/wiki/Helen_Donis-Keller",
+    type: "suit"
+}, {
+    source: "/wiki/Walter_Gilbert",
+    target: "/wiki/Gerald_Guralnik",
+    type: "suit"
+}, {
+    source: "/wiki/Walter_Gilbert",
+    target: "/wiki/Benno_M%C3%BCller-Hill",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Yuval_Ne%27eman",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/John_Polkinghorne",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Riazuddin_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Fayyazuddin",
+    type: "suit"
+}, {
+    source: "/wiki/Fayyazuddin",
+    target: "/wiki/Masud_Ahmed",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Masud_Ahmad",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Partha_Ghose",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Kamaluddin_Ahmed",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Ghulam_Murtaza_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Abdus_Salam",
+    target: "/wiki/Munir_Ahmad_Rashid",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Taunton_Matthews",
+    target: "/wiki/Abdus_Salam",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Taunton_Matthews",
+    target: "/wiki/Faheem_Hussain",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Taunton_Matthews",
+    target: "/wiki/Christopher_Isham",
+    type: "suit"
+}, {
+    source: "/wiki/Nicholas_Kemmer",
+    target: "/wiki/Paul_Taunton_Matthews",
+    type: "suit"
+}, {
+    source: "/wiki/Nicholas_Kemmer",
+    target: "/wiki/Richard_Dalitz",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Dalitz",
+    target: "/wiki/Frank_Close",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Dalitz",
+    target: "/wiki/Christopher_Llewellyn_Smith",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Dalitz",
+    target: "/wiki/Stanley_Mandelstam",
+    type: "suit"
+}, {
+    source: "/wiki/Stanley_Mandelstam",
+    target: "/wiki/Michio_Kaku",
+    type: "suit"
+}, {
+    source: "/wiki/Stanley_Mandelstam",
+    target: "/wiki/Charles_Thorn",
+    type: "suit"
+}, {
+    source: "/wiki/Stanley_Mandelstam",
+    target: "/wiki/Joseph_Polchinski",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Henry_Dalitz",
+    target: "/wiki/Stanley_Mandelstam",
+    type: "suit"
+}, {
+    source: "/wiki/Nicholas_Kemmer",
+    target: "/wiki/John_Stephen_Roy_Chisholm",
+    type: "suit"
+}, {
+    source: "/wiki/Wolfgang_Pauli",
+    target: "/wiki/Nicholas_Kemmer",
+    type: "suit"
+}, {
+    source: "/wiki/Wolfgang_Pauli",
+    target: "/wiki/Felix_Villars",
+    type: "suit"
+}, {
+    source: "/wiki/Felix_Villars",
+    target: "/wiki/David_Finkelstein",
+    type: "suit"
+}, {
+    source: "/wiki/Gregor_Wentzel",
+    target: "/wiki/Felix_Villars",
+    type: "suit"
+}, {
+    source: "/wiki/Gregor_Wentzel",
+    target: "/wiki/Valentine_Bargmann",
+    type: "suit"
+}, {
+    source: "/wiki/Gregor_Wentzel",
+    target: "/wiki/Markus_Fierz",
+    type: "suit"
+}, {
+    source: "/wiki/Markus_Fierz",
+    target: "/wiki/Klaus_Hepp",
+    type: "suit"
+}, {
+    source: "/wiki/Klaus_Hepp",
+    target: "/wiki/J%C3%BCrg_Fr%C3%B6hlich",
+    type: "suit"
+}, {
+    source: "/wiki/Klaus_Hepp",
+    target: "/wiki/Konrad_Osterwalder",
+    type: "suit"
+}, {
+    source: "/wiki/Res_Jost",
+    target: "/wiki/Klaus_Hepp",
+    type: "suit"
+}, {
+    source: "/wiki/Res_Jost",
+    target: "/wiki/Sergio_Albeverio",
+    type: "suit"
+}, {
+    source: "/wiki/Res_Jost",
+    target: "/wiki/Walter_Hunziker",
+    type: "suit"
+}, {
+    source: "/wiki/Res_Jost",
+    target: "/wiki/David_Ruelle",
+    type: "suit"
+}, {
+    source: "/wiki/Res_Jost",
+    target: "/wiki/Eduard_Zehnder",
+    type: "suit"
+}, {
+    source: "/wiki/Eduard_Zehnder",
+    target: "/wiki/Andreas_Floer",
+    type: "suit"
+}, {
+    source: "/wiki/Markus_Fierz",
+    target: "/wiki/Peter_Minkowski",
+    type: "suit"
+}, {
+    source: "/wiki/Arnold_Sommerfeld",
+    target: "/wiki/Gregor_Wentzel",
+    type: "suit"
+}, {
+    source: "/wiki/Fred_Hoyle",
+    target: "/wiki/Chandra_Wickramasinghe",
+    type: "suit"
+}, {
+    source: "/wiki/Fred_Hoyle",
+    target: "/wiki/Cyril_Domb",
+    type: "suit"
+}, {
+    source: "/wiki/Cyril_Domb",
+    target: "/wiki/Michael_Fisher",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_Fisher",
+    target: "/wiki/David_R._Nelson",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_Fisher",
+    target: "/wiki/Gunduz_Caginalp",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_E._Fisher",
+    target: "/wiki/Gunduz_Caginalp",
+    type: "suit"
+}, {
+    source: "/wiki/Cyril_Domb",
+    target: "/wiki/Renfrey_Potts",
+    type: "suit"
+}, {
+    source: "/wiki/Fred_Hoyle",
+    target: "/wiki/Jayant_Narlikar",
+    type: "suit"
+}, {
+    source: "/wiki/Jayant_Narlikar",
+    target: "/wiki/Thanu_Padmanabhan",
+    type: "suit"
+}, {
+    source: "/wiki/Fred_Hoyle",
+    target: "/wiki/Leon_Mestel",
+    type: "suit"
+}, {
+    source: "/wiki/Leon_Mestel",
+    target: "/wiki/Donald_Lynden-Bell",
+    type: "suit"
+}, {
+    source: "/wiki/Donald_Lynden-Bell",
+    target: "/wiki/Simon_White",
+    type: "suit"
+}, {
+    source: "/wiki/Donald_Lynden-Bell",
+    target: "/wiki/Somak_Raychaudhury",
+    type: "suit"
+}, {
+    source: "/wiki/Fred_Hoyle",
+    target: "/wiki/Peter_Alan_Sweet",
+    type: "suit"
+}, {
+    source: "/wiki/Maurice_Pryce",
+    target: "/wiki/Fred_Hoyle",
+    type: "suit"
+}, {
+    source: "/wiki/Rudolf_Peierls",
+    target: "/wiki/Edwin_Ernest_Salpeter",
+    type: "suit"
+}, {
+    source: "/wiki/Rudolf_Peierls",
+    target: "/wiki/Gerald_E._Brown",
+    type: "suit"
+}, {
+    source: "/wiki/Rudolf_Peierls",
+    target: "/wiki/Walter_Marshall,_Baron_Marshall_of_Goring",
+    type: "suit"
+}, {
+    source: "/wiki/Rudolf_Peierls",
+    target: "/wiki/James_S._Langer",
+    type: "suit"
+}, {
+    source: "/wiki/James_S._Langer",
+    target: "/wiki/Michael_Marder",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Rudolf_Peierls",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Felix_Bloch",
+    type: "suit"
+}, {
+    source: "/wiki/Felix_Bloch",
+    target: "/wiki/Carson_D._Jeffries",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Edward_Teller",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Teller",
+    target: "/wiki/Chen_Ning_Yang",
+    type: "suit"
+}, {
+    source: "/wiki/Chen_Ning_Yang",
+    target: "/wiki/T._Bill_Sutherland",
+    type: "suit"
+}, {
+    source: "/wiki/Chen-Ning_Franklin_Yang",
+    target: "/wiki/T._Bill_Sutherland",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Chen-Ning_Franklin_Yang",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Harold_Agnew",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Edoardo_Amaldi",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Owen_Chamberlain",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Geoffrey_Chew",
+    type: "suit"
+}, {
+    source: "/wiki/Geoffrey_Chew",
+    target: "/wiki/David_Gross",
+    type: "suit"
+}, {
+    source: "/wiki/David_Gross",
+    target: "/wiki/Frank_Wilczek",
+    type: "suit"
+}, {
+    source: "/wiki/David_Gross",
+    target: "/wiki/Edward_Witten",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Witten",
+    target: "/wiki/Cumrun_Vafa",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Witten",
+    target: "/wiki/Xiao-Gang_Wen",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Witten",
+    target: "/wiki/Eva_Silverstein",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Witten",
+    target: "/wiki/Shamit_Kachru",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Witten",
+    target: "/wiki/Sergei_Gukov",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Witten",
+    target: "/wiki/Dror_Bar-Natan",
+    type: "suit"
+}, {
+    source: "/wiki/Dror_Bar-Natan",
+    target: "/wiki/Hernando_Burgos-Soto",
+    type: "suit"
+}, {
+    source: "/wiki/David_Gross",
+    target: "/wiki/William_E._Caswell",
+    type: "suit"
+}, {
+    source: "/wiki/David_Gross",
+    target: "/wiki/Rajesh_Gopakumar",
+    type: "suit"
+}, {
+    source: "/wiki/David_Gross",
+    target: "/wiki/Nikita_Nekrasov",
+    type: "suit"
+}, {
+    source: "/wiki/Geoffrey_Chew",
+    target: "/wiki/John_H._Schwarz",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Schwarz",
+    target: "/wiki/Mina_Aganagic",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Schwarz",
+    target: "/wiki/Anthony_Ichiro_Sanda",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Schwarz",
+    target: "/wiki/Cosmas_Zachos",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Schwarz",
+    target: "/wiki/Augusto_Sagnotti",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Schwarz",
+    target: "/wiki/Michael_R._Douglas",
+    type: "suit"
+}, {
+    source: "/wiki/John_H._Schwarz",
+    target: "/wiki/Gerald_B._Cleaver",
+    type: "suit"
+}, {
+    source: "/wiki/John_Henry_Schwarz",
+    target: "/wiki/Gerald_B._Cleaver",
+    type: "suit"
+}, {
+    source: "/wiki/Geoffrey_Chew",
+    target: "/wiki/John_R._Taylor",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Jerome_Isaac_Friedman",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Richard_Garwin",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Marvin_Goldberger",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Tsung-Dao_Lee",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Ettore_Majorana",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Arthur_Rosenfeld",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Emilio_Segr%C3%A8",
+    type: "suit"
+}, {
+    source: "/wiki/Emilio_Segr%C3%A8",
+    target: "/wiki/Basanti_Dulal_Nagchaudhuri",
+    type: "suit"
+}, {
+    source: "/wiki/Emilio_Segr%C3%A8",
+    target: "/wiki/Thomas_Ypsilantis",
+    type: "suit"
+}, {
+    source: "/wiki/Emilio_Segr%C3%A8",
+    target: "/wiki/Herbert_York",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Fermi",
+    target: "/wiki/Sam_Treiman",
+    type: "suit"
+}, {
+    source: "/wiki/Sam_Treiman",
+    target: "/wiki/Curtis_Callan",
+    type: "suit"
+}, {
+    source: "/wiki/Curtis_Callan",
+    target: "/wiki/Peter_Woit",
+    type: "suit"
+}, {
+    source: "/wiki/Curtis_Callan",
+    target: "/wiki/Igor_Klebanov",
+    type: "suit"
+}, {
+    source: "/wiki/Curtis_Callan",
+    target: "/wiki/Juan_Maldacena",
+    type: "suit"
+}, {
+    source: "/wiki/Sam_Treiman",
+    target: "/wiki/Stephen_L._Adler",
+    type: "suit"
+}, {
+    source: "/wiki/Sam_Treiman",
+    target: "/wiki/Steven_Weinberg",
+    type: "suit"
+}, {
+    source: "/wiki/Steven_Weinberg",
+    target: "/wiki/Fernando_Quevedo",
+    type: "suit"
+}, {
+    source: "/wiki/Steven_Weinberg",
+    target: "/wiki/Mark_G._Raizen",
+    type: "suit"
+}, {
+    source: "/wiki/Steven_Weinberg",
+    target: "/wiki/John_Preskill",
+    type: "suit"
+}, {
+    source: "/wiki/John_Preskill",
+    target: "/wiki/Peter_Galison",
+    type: "suit"
+}, {
+    source: "/wiki/John_Preskill",
+    target: "/wiki/Daniel_Gottesman",
+    type: "suit"
+}, {
+    source: "/wiki/John_Preskill",
+    target: "/wiki/Anton_Kapustin",
+    type: "suit"
+}, {
+    source: "/wiki/John_Preskill",
+    target: "/wiki/Sandip_Trivedi",
+    type: "suit"
+}, {
+    source: "/wiki/Sam_Treiman",
+    target: "/wiki/Paul_B._Kantor",
+    type: "suit"
+}, {
+    source: "/wiki/Sam_Treiman",
+    target: "/wiki/B_F_L_Ward",
+    type: "suit"
+}, {
+    source: "/wiki/John_Alexander_Simpson",
+    target: "/wiki/Sam_Treiman",
+    type: "suit"
+}, {
+    source: "/wiki/Luigi_Puccianti",
+    target: "/wiki/Enrico_Fermi",
+    type: "suit"
+}, {
+    source: "/wiki/Angelo_Battelli",
+    target: "/wiki/Luigi_Puccianti",
+    type: "suit"
+}, {
+    source: "/wiki/Andrea_Naccari",
+    target: "/wiki/Angelo_Battelli",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Teller",
+    target: "/wiki/Lincoln_Wolfenstein",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Teller",
+    target: "/wiki/Marshall_Rosenbluth",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_Teller",
+    target: "/wiki/Charles_Critchfield",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Rudolf_E._Peierls",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Reinhard_Oehme",
+    type: "suit"
+}, {
+    source: "/wiki/Erwin_Madelung",
+    target: "/wiki/Reinhard_Oehme",
+    type: "suit"
+}, {
+    source: "/wiki/Eduard_Riecke",
+    target: "/wiki/Erwin_Madelung",
+    type: "suit"
+}, {
+    source: "/wiki/Eduard_Riecke",
+    target: "/wiki/John_Stark",
+    type: "suit"
+}, {
+    source: "/wiki/Hermann_Theodor_Simon",
+    target: "/wiki/Erwin_Madelung",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Friedwardt_Winterberg",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/%C8%98erban_%C8%9Ai%C8%9Beica",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Ivan_Supek",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Erich_Bagge",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Hermann_Arthur_Jahn",
+    type: "suit"
+}, {
+    source: "/wiki/Werner_Heisenberg",
+    target: "/wiki/Hans_Heinrich_Euler",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Gordon_Baym",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Lowell_S._Brown",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Lawrence_Paul_Horwitz",
+    type: "suit"
+}, {
+    source: "/wiki/Julian_Schwinger",
+    target: "/wiki/Margaret_G._Kivelson",
+    type: "suit"
+}, {
+    source: "/wiki/Isidor_Isaac_Rabi",
+    target: "/wiki/Julian_Schwinger",
+    type: "suit"
+}, {
+    source: "/wiki/Isidor_Isaac_Rabi",
+    target: "/wiki/Norman_F._Ramsey",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_F._Ramsey",
+    target: "/wiki/David_J._Wineland",
+    type: "suit"
+}, {
+    source: "/wiki/Hans_Georg_Dehmelt",
+    target: "/wiki/David_J._Wineland",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_Foster_Ramsey,_Jr.",
+    target: "/wiki/David_J._Wineland",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_Foster_Ramsey,_Jr.",
+    target: "/wiki/Daniel_Kleppner",
+    type: "suit"
+}, {
+    source: "/wiki/Daniel_Kleppner",
+    target: "/wiki/David_E._Pritchard",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_Ramsey",
+    target: "/wiki/Daniel_Kleppner",
+    type: "suit"
+}, {
+    source: "/wiki/Norman_Ramsey",
+    target: "/wiki/Howard_Berg",
+    type: "suit"
+}, {
+    source: "/wiki/Isidor_Isaac_Rabi",
+    target: "/wiki/Martin_L._Perl",
+    type: "suit"
+}, {
+    source: "/wiki/Martin_L._Perl",
+    target: "/wiki/Samuel_C._C._Ting",
+    type: "suit"
+}, {
+    source: "/wiki/Martin_Lewis_Perl",
+    target: "/wiki/Samuel_C._C._Ting",
+    type: "suit"
+}, {
+    source: "/wiki/Martin_Lewis_Perl",
+    target: "/wiki/Valerie_Halyo",
+    type: "suit"
+}, {
+    source: "/wiki/I._I._Rabi",
+    target: "/wiki/Martin_Lewis_Perl",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_Potter_Wills",
+    target: "/wiki/I._I._Rabi",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_Potter_Wills",
+    target: "/wiki/Francis_Bitter",
+    type: "suit"
+}, {
+    source: "/wiki/Francis_Bitter",
+    target: "/wiki/Robert_Coleman_Richardson",
+    type: "suit"
+}, {
+    source: "/wiki/Francis_Bitter",
+    target: "/wiki/Jean_Brossel",
+    type: "suit"
+}, {
+    source: "/wiki/Albert_Potter_Wills",
+    target: "/wiki/Ralph_Kronig",
+    type: "suit"
+}, {
+    source: "/wiki/Arthur_Gordon_Webster",
+    target: "/wiki/Albert_Potter_Wills",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/Paul_Steinhardt",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_P._Feynman",
+    target: "/wiki/Paul_Steinhardt",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_P._Feynman",
+    target: "/wiki/Albert_Hibbs",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_P._Feynman",
+    target: "/wiki/George_Zweig",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Feynman",
+    target: "/wiki/George_Zweig",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Feynman",
+    target: "/wiki/Giovanni_Rossi_Lomanitz",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Feynman",
+    target: "/wiki/Thomas_Curtright",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Feynman",
+    target: "/wiki/James_M._Bardeen",
+    type: "suit"
+}, {
+    source: "/wiki/Manuel_Sandoval_Vallarta",
+    target: "/wiki/Richard_Feynman",
+    type: "suit"
+}, {
+    source: "/wiki/Manuel_Sandoval_Vallarta",
+    target: "/wiki/Julius_Stratton",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Scherrer",
+    target: "/wiki/Julius_Stratton",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Scherrer",
+    target: "/wiki/Hans_Frauenfelder",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Scherrer",
+    target: "/wiki/Egon_Bretscher",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Scherrer",
+    target: "/wiki/Julius_Adams_Stratton",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Scherrer",
+    target: "/wiki/Fritz_Zwicky",
+    type: "suit"
+}, {
+    source: "/wiki/Peter_Debye",
+    target: "/wiki/Fritz_Zwicky",
+    type: "suit"
+}, {
+    source: "/wiki/Peter_Debye",
+    target: "/wiki/Lars_Onsager",
+    type: "suit"
+}, {
+    source: "/wiki/Lars_Onsager",
+    target: "/wiki/Joseph_L._McCauley",
+    type: "suit"
+}, {
+    source: "/wiki/Peter_Debye",
+    target: "/wiki/George_K._Fraenkel",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Richard_Feynman",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Jacob_Bekenstein",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Claudio_Bunster",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Demetrios_Christodoulou",
+    type: "suit"
+}, {
+    source: "/wiki/Demetrios_Christodoulou",
+    target: "/wiki/Mihalis_Dafermos",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Ignazio_Ciufolini",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Hugh_Everett",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Kenneth_W._Ford",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Robert_Geroch",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/John_R._Klauder",
+    type: "suit"
+}, {
+    source: "/wiki/John_R._Klauder",
+    target: "/wiki/Wolfgang_A._Tom%C3%A9",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Bahram_Mashhoon",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Charles_Misner",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_Misner",
+    target: "/wiki/Carl_H._Brans",
+    type: "suit"
+}, {
+    source: "/wiki/Robert_H._Dicke",
+    target: "/wiki/Carl_H._Brans",
+    type: "suit"
+}, {
+    source: "/wiki/Lee_Alvin_DuBridge",
+    target: "/wiki/Robert_H._Dicke",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_W._Misner",
+    target: "/wiki/Carl_H._Brans",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_W._Misner",
+    target: "/wiki/Vincent_Moncrief",
+    type: "suit"
+}, {
+    source: "/wiki/Vincent_Moncrief",
+    target: "/wiki/Edward_Seidel",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_William_Misner",
+    target: "/wiki/Vincent_Moncrief",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_William_Misner",
+    target: "/wiki/James_A._Isenberg",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Milton_S._Plesset",
+    type: "suit"
+}, {
+    source: "/wiki/Milton_S._Plesset",
+    target: "/wiki/Andrea_Prosperetti",
+    type: "suit"
+}, {
+    source: "/wiki/Milton_S._Plesset",
+    target: "/wiki/Norman_Zabusky",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Benjamin_Schumacher",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Kip_Thorne",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/William_L._Burke",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/Carlton_M._Caves",
+    type: "suit"
+}, {
+    source: "/wiki/Carlton_M._Caves",
+    target: "/wiki/Samuel_L._Braunstein",
+    type: "suit"
+}, {
+    source: "/wiki/Carlton_M._Caves",
+    target: "/wiki/Michael_Nielsen",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/Lee_Samuel_Finn",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/S%C3%A1ndor_J._Kov%C3%A1cs",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/David_L._Lee",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/Alan_Lightman",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/Don_Page_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_W._Hawking",
+    target: "/wiki/Don_Page_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_W._Hawking",
+    target: "/wiki/Bruce_Allen_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_W._Hawking",
+    target: "/wiki/Raphael_Bousso",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_W._Hawking",
+    target: "/wiki/Bernard_Carr",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_W._Hawking",
+    target: "/wiki/Fay_Dowker",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Hawking",
+    target: "/wiki/Fay_Dowker",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Hawking",
+    target: "/wiki/Gary_Gibbons",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_William_Sciama",
+    target: "/wiki/Gary_Gibbons",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_William_Sciama",
+    target: "/wiki/John_D._Barrow",
+    type: "suit"
+}, {
+    source: "/wiki/John_D._Barrow",
+    target: "/wiki/Peter_Coles",
+    type: "suit"
+}, {
+    source: "/wiki/John_D._Barrow",
+    target: "/wiki/David_Wands",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_William_Sciama",
+    target: "/wiki/James_Binney",
+    type: "suit"
+}, {
+    source: "/wiki/James_Binney",
+    target: "/wiki/Brian_Greene",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_William_Sciama",
+    target: "/wiki/Adrian_Melott",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Sciama",
+    target: "/wiki/Adrian_Melott",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Sciama",
+    target: "/wiki/George_Francis_Rayner_Ellis",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Sciama",
+    target: "/wiki/Martin_Rees",
+    type: "suit"
+}, {
+    source: "/wiki/Martin_Rees",
+    target: "/wiki/Roger_Blandford",
+    type: "suit"
+}, {
+    source: "/wiki/Roger_Blandford",
+    target: "/wiki/Lars_Hernquist",
+    type: "suit"
+}, {
+    source: "/wiki/Martin_Rees",
+    target: "/wiki/Craig_Hogan",
+    type: "suit"
+}, {
+    source: "/wiki/Martin_Rees",
+    target: "/wiki/Priyamvada_Natarajan",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Sciama",
+    target: "/wiki/David_Deutsch",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Sciama",
+    target: "/wiki/Antony_Valentini",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Sciama",
+    target: "/wiki/Brandon_Carter",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Sciama",
+    target: "/wiki/Tim_Palmer_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Dennis_Sciama",
+    target: "/wiki/Philip_Candelas",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Dirac",
+    target: "/wiki/Dennis_Sciama",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Hawking",
+    target: "/wiki/Raymond_Laflamme",
+    type: "suit"
+}, {
+    source: "/wiki/Stephen_Hawking",
+    target: "/wiki/Malcolm_Perry_(physicist)",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/William_H._Press",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/Richard_H._Price",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/Bernard_F._Schutz",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/Saul_Teukolsky",
+    type: "suit"
+}, {
+    source: "/wiki/Kip_Thorne",
+    target: "/wiki/Clifford_Martin_Will",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Jayme_Tiomno",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Bill_Unruh",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Robert_Wald",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Katharine_Way",
+    type: "suit"
+}, {
+    source: "/wiki/John_Archibald_Wheeler",
+    target: "/wiki/Arthur_Wightman",
+    type: "suit"
+}, {
+    source: "/wiki/Karl_Herzfeld",
+    target: "/wiki/John_Archibald_Wheeler",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Barish",
+    target: "/wiki/Paul_Steinhardt",
+    type: "suit"
+}, {
+    source: "/wiki/Praveen_Chaudhari",
+    target: "/wiki/Paul_Steinhardt",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_R._Coleman",
+    target: "/wiki/Paul_Steinhardt",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/Erick_Weinberg",
+    type: "suit"
+}, {
+    source: "/wiki/Sidney_Coleman",
+    target: "/wiki/Anthony_Zee",
+    type: "suit"
+}, {
+    source: "/wiki/Murray_Gell-Mann",
+    target: "/wiki/Rod_Crewther",
+    type: "suit"
+}, {
+    source: "/wiki/Murray_Gell-Mann",
+    target: "/wiki/James_Hartle",
+    type: "suit"
+}, {
+    source: "/wiki/Murray_Gell-Mann",
+    target: "/wiki/Christopher_T._Hill",
+    type: "suit"
+}, {
+    source: "/wiki/Murray_Gell-Mann",
+    target: "/wiki/H._Jay_Melosh",
+    type: "suit"
+}, {
+    source: "/wiki/Murray_Gell-Mann",
+    target: "/wiki/Barton_Zwiebach",
+    type: "suit"
+}, {
+    source: "/wiki/Victor_Weisskopf",
+    target: "/wiki/Murray_Gell-Mann",
+    type: "suit"
+}, {
+    source: "/wiki/Victor_Frederick_Weisskopf",
+    target: "/wiki/Kurt_Gottfried",
+    type: "suit"
+}, {
+    source: "/wiki/Victor_Frederick_Weisskopf",
+    target: "/wiki/Lawrence_Biedenharn",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Lothar_Wolfgang_Nordheim",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Max_Delbr%C3%BCck",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Walter_Elsasser",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Friedrich_Hund",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Pascual_Jordan",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Maria_Goeppert-Mayer",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Herbert_S._Green",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Cheng_Kaijia",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Siegfried_Fl%C3%BCgge",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Edgar_Krahn",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Bertha_Swirles",
+    type: "suit"
+}, {
+    source: "/wiki/Max_Born",
+    target: "/wiki/Peng_Huanwu",
+    type: "suit"
+}, {
+    source: "/wiki/Woldemar_Voigt",
+    target: "/wiki/Max_Born",
+    type: "suit"
+}, {
+    source: "/wiki/Joseph_Larmor",
+    target: "/wiki/Max_Born",
+    type: "suit"
+}, {
+    source: "/wiki/Carl_Runge",
+    target: "/wiki/Max_Born",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/Owen_Willans_Richardson",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/William_Henry_Bragg",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/H._Stanley_Allen",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/John_Zeleny",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/Daniel_Frost_Comstock",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/T._H._Laby",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/Paul_Langevin",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/Balthasar_van_der_Pol",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/Geoffrey_Ingram_Taylor",
+    type: "suit"
+}, {
+    source: "/wiki/J._J._Thomson",
+    target: "/wiki/George_Paget_Thomson",
+    type: "suit"
+}, {
+    source: "/wiki/John_Strutt,_3rd_Baron_Rayleigh",
+    target: "/wiki/J._J._Thomson",
+    type: "suit"
+}, {
+    source: "/wiki/Edward_John_Routh",
+    target: "/wiki/J._J._Thomson",
+    type: "suit"
+}, {
+    source: "/wiki/Christian_Christiansen",
+    target: "/wiki/Niels_Bohr",
+    type: "suit"
+}, {
+    source: "/wiki/Jan_Tinbergen",
+    target: "/wiki/Tjalling_Koopmans",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Ehrenfest",
+    target: "/wiki/Arend_Joan_Rutgers",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Ehrenfest",
+    target: "/wiki/George_Uhlenbeck",
+    type: "suit"
+}, {
+    source: "/wiki/Ludwig_Boltzmann",
+    target: "/wiki/Philipp_Frank",
+    type: "suit"
+}, {
+    source: "/wiki/Ludwig_Boltzmann",
+    target: "/wiki/Franc_Ho%C4%8Devar",
+    type: "suit"
+}, {
+    source: "/wiki/Ludwig_Boltzmann",
+    target: "/wiki/Ignacij_Klemen%C4%8Di%C4%8D",
+    type: "suit"
+}, {
+    source: "/wiki/Josef_Stefan",
+    target: "/wiki/Ludwig_Boltzmann",
+    type: "suit"
+}, {
+    source: "/wiki/Otto_Ludwig_H%C3%B6lder",
+    target: "/wiki/Emil_Artin",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Mazur",
+    target: "/wiki/Jordan_Ellenberg",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Mazur",
+    target: "/wiki/David_Goss",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Mazur",
+    target: "/wiki/Michael_Harris_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Mazur",
+    target: "/wiki/Daniel_Kane_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Mazur",
+    target: "/wiki/Michael_McQuillan_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Mazur",
+    target: "/wiki/Victor_S._Miller",
+    type: "suit"
+}, {
+    source: "/wiki/Barry_Mazur",
+    target: "/wiki/Paul_Vojta",
+    type: "suit"
+}, {
+    source: "/wiki/R._H._Bing",
+    target: "/wiki/Barry_Mazur",
+    type: "suit"
+}, {
+    source: "/wiki/Ralph_Fox",
+    target: "/wiki/John_Milnor",
+    type: "suit"
+}, {
+    source: "/wiki/Ralph_Fox",
+    target: "/wiki/John_R._Stallings",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Ralph_Gomory",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/John_McCarthy_(computer_scientist)",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Robert_Prim",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Paul_A._Smith",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Clifford_Truesdell",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Albert_W._Tucker",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/John_Tukey",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Henry_Wallman",
+    type: "suit"
+}, {
+    source: "/wiki/Solomon_Lefschetz",
+    target: "/wiki/Shaun_Wylie",
+    type: "suit"
+}, {
+    source: "/wiki/William_Edward_Story",
+    target: "/wiki/Solomon_Lefschetz",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Heisuke_Hironaka",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Steven_Kleiman",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Joseph_Lipman",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/David_Mumford",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Maxwell_Rosenlicht",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Pierre_Samuel",
+    type: "suit"
+}, {
+    source: "/wiki/Oscar_Zariski",
+    target: "/wiki/Abraham_Seidenberg",
+    type: "suit"
+}, {
+    source: "/wiki/Giuseppe_Veronese",
+    target: "/wiki/Guido_Castelnuovo",
+    type: "suit"
+}, {
+    source: "/wiki/Enrico_Betti",
+    target: "/wiki/Gregorio_Ricci-Curbastro",
+    type: "suit"
+}, {
+    source: "/wiki/Jacques_Hadamard",
+    target: "/wiki/Szolem_Mandelbrojt",
+    type: "suit"
+}, {
+    source: "/wiki/Jules_Tannery",
+    target: "/wiki/Jacques_Hadamard",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Gaston_Julia",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Traian_Lalescu",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Philippe_Le_Corbeiller",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Paul_Painlev%C3%A9",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Mihailo_Petrovi%C4%87",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Simion_Stoilow",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Ernest_Vessiot",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Henri_Villat",
+    type: "suit"
+}, {
+    source: "/wiki/Charles_%C3%89mile_Picard",
+    target: "/wiki/Stanis%C5%82aw_Zaremba_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Gaston_Darboux",
+    target: "/wiki/Charles_%C3%89mile_Picard",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Bugaev",
+    target: "/wiki/Dmitri_Egorov",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Nina_Bari",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Aleksandr_Yakovlevich_Khinchin",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Alexander_Kronrod",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Mikhail_Lavrentyev",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Alexey_Lyapunov",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Lazar_Lyusternik",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Pyotr_Novikov",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Lev_Schnirelmann",
+    type: "suit"
+}, {
+    source: "/wiki/Nikolai_Luzin",
+    target: "/wiki/Pavel_Samuilovich_Urysohn",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitry_Grave",
+    target: "/wiki/Nikolai_Chebotaryov",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitry_Grave",
+    target: "/wiki/Mikhail_Kravchuk",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitry_Grave",
+    target: "/wiki/Otto_Schmidt",
+    type: "suit"
+}, {
+    source: "/wiki/Dmitry_Grave",
+    target: "/wiki/Yurii_Dmitrievich_Sokolov",
+    type: "suit"
+}, {
+    source: "/wiki/Aleksandr_Korkin",
+    target: "/wiki/Dmitry_Grave",
+    type: "suit"
+}, {
+    source: "/wiki/Georgy_Voronoy",
+    target: "/wiki/Boris_Delaunay",
+    type: "suit"
+}, {
+    source: "/wiki/Konstantin_Posse",
+    target: "/wiki/Veniamin_Kagan",
+    type: "suit"
+}, {
+    source: "/wiki/Andrey_Markov",
+    target: "/wiki/J._V._Uspensky",
+    type: "suit"
+}, {
+    source: "/wiki/Pafnuty_Chebyshev",
+    target: "/wiki/Andrey_Markov",
+    type: "suit"
+}, {
+    source: "/wiki/William_Feller",
+    target: "/wiki/Lawrence_Shepp",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/Kurt_O._Friedrichs",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/Fritz_John",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/Joseph_Keller",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/Martin_David_Kruskal",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/Anneli_Cahn_Lax",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/Hans_Lewy",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/Otto_Neugebauer",
+    type: "suit"
+}, {
+    source: "/wiki/Richard_Courant",
+    target: "/wiki/Franz_Rellich",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Haskell_Curry",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Max_Dehn",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Rudolf_Fueter",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Paul_Funk",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Kurt_Grelling",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Alfr%C3%A9d_Haar",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Erich_Hecke",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Earle_Raymond_Hedrick",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Ernst_Hellinger",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Wallie_Abraham_Hurwitz",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Margarete_Kahn",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Oliver_Dimon_Kellogg",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Hellmuth_Kneser",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Robert_K%C3%B6nig",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Emanuel_Lasker",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Klara_L%C3%B6benstein",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Max_Mason",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Erhard_Schmidt",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Kurt_Sch%C3%BCtte",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Andreas_Speiser",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Hugo_Steinhaus",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Gabriel_Sudan",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Teiji_Takagi",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Ernst_Zermelo",
+    type: "suit"
+}, {
+    source: "/wiki/David_Hilbert",
+    target: "/wiki/Edward_Kasner",
+    type: "suit"
+}, {
+    source: "/wiki/Ferdinand_von_Lindemann",
+    target: "/wiki/David_Hilbert",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Bernays",
+    target: "/wiki/Saunders_Mac_Lane",
+    type: "suit"
+}, {
+    source: "/wiki/Claude_Chevalley",
+    target: "/wiki/Michel_Brou%C3%A9",
+    type: "suit"
+}, {
+    source: "/wiki/Alan_Baker_(mathematician)",
+    target: "/wiki/Yuval_Flicker",
+    type: "suit"
+}, {
+    source: "/wiki/Alan_Baker_(mathematician)",
+    target: "/wiki/Roger_Heath-Brown",
+    type: "suit"
+}, {
+    source: "/wiki/Alan_Baker_(mathematician)",
+    target: "/wiki/David_Masser",
+    type: "suit"
+}, {
+    source: "/wiki/Alan_Baker_(mathematician)",
+    target: "/wiki/Cameron_Leigh_Stewart",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_Davenport",
+    target: "/wiki/Peter_D._T._A._Elliott",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_Davenport",
+    target: "/wiki/Hugh_Montgomery_(mathematician)",
+    type: "suit"
+}, {
+    source: "/wiki/Harold_Davenport",
+    target: "/wiki/Martin_Huxley",
+    type: "suit"
+}, {
+    source: "/wiki/John_Edensor_Littlewood",
+    target: "/wiki/Srinivasa_Ramanujan",
+    type: "suit"
+}, {
+    source: "/wiki/John_Edensor_Littlewood",
+    target: "/wiki/Stanley_Skewes",
+    type: "suit"
+}, {
+    source: "/wiki/John_Edensor_Littlewood",
+    target: "/wiki/Donald_C._Spencer",
+    type: "suit"
+}, {
+    source: "/wiki/John_Edensor_Littlewood",
+    target: "/wiki/Albert_Ingham",
+    type: "suit"
+}, {
+    source: "/wiki/Ernest_William_Barnes",
+    target: "/wiki/John_Edensor_Littlewood",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Cartan",
+    target: "/wiki/Jacques_Deny",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Cartan",
+    target: "/wiki/Adrien_Douady",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Cartan",
+    target: "/wiki/Roger_Godement",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Cartan",
+    target: "/wiki/Max_Karoubi",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Cartan",
+    target: "/wiki/Jean-Louis_Koszul",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Cartan",
+    target: "/wiki/Ren%C3%A9_Thom",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Montel",
+    target: "/wiki/Jean_Dieudonn%C3%A9",
+    type: "suit"
+}, {
+    source: "/wiki/Paul_Montel",
+    target: "/wiki/Miron_Nicolescu",
+    type: "suit"
+}, {
+    source: "/wiki/%C3%89mile_Borel",
+    target: "/wiki/Paul_Montel",
+    type: "suit"
+}, {
+    source: "/wiki/Henri_Lebesgue",
+    target: "/wiki/Georges_de_Rham",
+    type: "suit"
+}, {
+    source: "/wiki/Alfred_Tarski",
+    target: "/wiki/Andrzej_Mostowski",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_Oser_Rabin",
+    target: "/wiki/Mosh%C3%A9_Machover",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_O._Rabin",
+    target: "/wiki/Saharon_Shelah",
+    type: "suit"
+}, {
+    source: "/wiki/Michael_O._Rabin",
+    target: "/wiki/Dov_Gabbay",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Hartley_Rogers,_Jr",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/J._Barkley_Rosser",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Dana_Scott",
+    type: "suit"
+}, {
+    source: "/wiki/Alonzo_Church",
+    target: "/wiki/Raymond_Smullyan",
+    type: "suit"
+}, {
+    source: "/wiki/Oswald_Veblen",
+    target: "/wiki/Alonzo_Church",
+    type: "suit"
+}];
